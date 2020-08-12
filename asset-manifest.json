@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/morganpstanley/morganpstanley.github.io/static/css/main.5f361e03.chunk.css",
-    "main.js": "/morganpstanley/morganpstanley.github.io/static/js/main.0911878b.chunk.js",
-    "main.js.map": "/morganpstanley/morganpstanley.github.io/static/js/main.0911878b.chunk.js.map",
-    "runtime-main.js": "/morganpstanley/morganpstanley.github.io/static/js/runtime-main.25320ed2.js",
-    "runtime-main.js.map": "/morganpstanley/morganpstanley.github.io/static/js/runtime-main.25320ed2.js.map",
-    "static/js/2.65d1d315.chunk.js": "/morganpstanley/morganpstanley.github.io/static/js/2.65d1d315.chunk.js",
-    "static/js/2.65d1d315.chunk.js.map": "/morganpstanley/morganpstanley.github.io/static/js/2.65d1d315.chunk.js.map",
-    "index.html": "/morganpstanley/morganpstanley.github.io/index.html",
-    "precache-manifest.ecb716a27133c23c0b6a76b9a300bf02.js": "/morganpstanley/morganpstanley.github.io/precache-manifest.ecb716a27133c23c0b6a76b9a300bf02.js",
-    "service-worker.js": "/morganpstanley/morganpstanley.github.io/service-worker.js",
-    "static/css/main.5f361e03.chunk.css.map": "/morganpstanley/morganpstanley.github.io/static/css/main.5f361e03.chunk.css.map",
-    "static/js/2.65d1d315.chunk.js.LICENSE.txt": "/morganpstanley/morganpstanley.github.io/static/js/2.65d1d315.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/morganpstanley/morganpstanley.github.io/static/media/logo.5d5d9eef.svg"
+    "main.css": "/static/css/main.5f361e03.chunk.css",
+    "main.js": "/static/js/main.ee0e6390.chunk.js",
+    "main.js.map": "/static/js/main.ee0e6390.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.2dab3169.js",
+    "runtime-main.js.map": "/static/js/runtime-main.2dab3169.js.map",
+    "static/js/2.65d1d315.chunk.js": "/static/js/2.65d1d315.chunk.js",
+    "static/js/2.65d1d315.chunk.js.map": "/static/js/2.65d1d315.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.24ebc29d8e759e10a304ac6958cb225e.js": "/precache-manifest.24ebc29d8e759e10a304ac6958cb225e.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.65d1d315.chunk.js.LICENSE.txt": "/static/js/2.65d1d315.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/static/media/logo.5d5d9eef.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.25320ed2.js",
+    "static/js/runtime-main.2dab3169.js",
     "static/js/2.65d1d315.chunk.js",
     "static/css/main.5f361e03.chunk.css",
-    "static/js/main.0911878b.chunk.js"
+    "static/js/main.ee0e6390.chunk.js"
   ]
 }
