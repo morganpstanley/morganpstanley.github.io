@@ -1,0 +1,54 @@
+.menu {
+    display: grid;
+    grid-template-columns: repeat(10, 10%);
+    grid-template-rows: repeat(20, 5%);
+    justify-content: center;
+    align-content: center;
+    border-right: 1px solid black;
+    width: 10rem;
+    height: 100vh;
+    background-color: white;
+}
+
+#logo {
+    grid-column: 4 / 8;
+    grid-row: 2;
+    font-weight: 600;
+    border: 3px solid black;
+    align-self: baseline;
+    font-size: larger;
+    letter-spacing: 2px;
+}
+
+.link {
+    grid-column: 3 / 9;
+}
+
+#about {
+    grid-row: 4;
+}
+
+#portfolio {
+    grid-row: 5;
+}
+
+#resume {
+    grid-row: 6;
+}
+
+#contact-me {
+    grid-row: 7;
+}
+
+.link:hover {
+    color: red;
+}
+
+#menu-symbol {
+    grid-column: 4 / 8;
+    grid-row: 15;
+}
+
+#menu-symbol img {
+    width: 100%;
+}
