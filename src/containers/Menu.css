@@ -1,11 +1,11 @@
 .menu {
+    grid-column: 1;
     display: grid;
     grid-template-columns: repeat(10, 10%);
     grid-template-rows: repeat(20, 5%);
     justify-content: center;
     align-content: center;
     border-right: 1px solid black;
-    width: 10rem;
     height: 100vh;
     background-color: white;
 }
@@ -24,19 +24,19 @@
     grid-column: 3 / 9;
 }
 
-#about {
+#menu-about {
     grid-row: 4;
 }
 
-#portfolio {
+#menu-portfolio {
     grid-row: 5;
 }
 
-#resume {
+#menu-resume {
     grid-row: 6;
 }
 
-#contact-me {
+#menu-contact-me {
     grid-row: 7;
 }
 
