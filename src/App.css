@@ -39,5 +39,13 @@
 
 .App {
   display: grid;
-  grid-template-columns: 15% 85%;
+  grid-template-columns: 15% 75%;
+}
+
+#page {
+  grid-column: 2;
+}
+
+.page-header {
+  font-weight: 500;
 }

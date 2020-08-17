@@ -8,6 +8,8 @@
     border-right: 1px solid black;
     height: 100vh;
     background-color: white;
+    padding: 0px;
+    margin: 0px;
 }
 
 #logo {
@@ -22,6 +24,16 @@
 
 .link {
     grid-column: 3 / 9;
+}
+
+a {
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: burlywood;
 }
 
 #menu-about {
