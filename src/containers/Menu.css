@@ -33,7 +33,7 @@ a {
 }
 
 a:hover {
-    color: burlywood;
+    color: gray;
 }
 
 #menu-about {
@@ -48,7 +48,7 @@ a:hover {
     grid-row: 6;
 }
 
-#menu-contact-me {
+#menu-contact {
     grid-row: 7;
 }
 

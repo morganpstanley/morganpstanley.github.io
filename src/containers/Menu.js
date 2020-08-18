@@ -17,6 +17,12 @@ class Menu extends Component {
             <div className="link" id="menu-portfolio">
                 <Link to="/portfolio">Portfolio</Link>
             </div>
+            <div className="link" id="menu-resume">
+                <Link to="/resume">Resume</Link>
+            </div>
+            <div className="link" id="menu-contact">
+                <Link to="/contact">Contact</Link>
+            </div>
             <div id="menu-symbol">
                 <img src={process.env.PUBLIC_URL + '/littlerocket.png'} alt="rocket"></img>
             </div>

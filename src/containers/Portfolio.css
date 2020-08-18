@@ -1,0 +1,10 @@
+#portfolio-page-body {
+    height: 85vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.portfolio-item{
+    border: 2px solid black;
+}
