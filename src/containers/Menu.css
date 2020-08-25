@@ -48,8 +48,12 @@ a:hover {
     grid-row: 6;
 }
 
-#menu-contact {
+#menu-blog {
     grid-row: 7;
+}
+
+#menu-contact {
+    grid-row: 8;
 }
 
 .link:hover {

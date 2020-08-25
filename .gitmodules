@@ -1,0 +1,3 @@
+[submodule "stocker"]
+	path = stocker
+	url = https://github.com/morganpstanley/stocker

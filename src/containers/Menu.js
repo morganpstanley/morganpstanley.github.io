@@ -20,6 +20,9 @@ class Menu extends Component {
             <div className="link" id="menu-resume">
                 <Link to="/resume">Resume</Link>
             </div>
+            <div className="link" id="menu-blog">
+                <Link to="/blog">Blog</Link>
+            </div>
             <div className="link" id="menu-contact">
                 <Link to="/contact">Contact</Link>
             </div>
