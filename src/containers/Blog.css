@@ -1,0 +1,10 @@
+.blog-post {
+    font-weight: 500;
+    font-family: serif;
+    font-style: italic;
+}
+
+.post-body {
+    margin: 0px 50px;
+    text-align: left;
+}
