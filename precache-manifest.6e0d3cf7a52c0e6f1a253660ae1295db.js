@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d6674ea21b6ef19aaa3051a3330dab30",
+    "revision": "f5fdd673173d9a676516a28293ef61cc",
     "url": "/morganpstanley.github.io/index.html"
   },
   {
-    "revision": "412843d968e4a82a7804",
+    "revision": "7c1aa0849902c7a1027f",
     "url": "/morganpstanley.github.io/static/css/main.6a82f7b4.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/morganpstanley.github.io/static/js/2.b52b2e60.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "412843d968e4a82a7804",
-    "url": "/morganpstanley.github.io/static/js/main.f9e1556e.chunk.js"
+    "revision": "7c1aa0849902c7a1027f",
+    "url": "/morganpstanley.github.io/static/js/main.6250320c.chunk.js"
   },
   {
     "revision": "5540b393d3567d53f8d4",
