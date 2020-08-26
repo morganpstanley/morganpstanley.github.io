@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2927fff8dbfde8cceeec88a58f50a94b",
+    "revision": "f539bf7f3291d37eac5d1dc8886c6d59",
     "url": "/morganpstanley.github.io/index.html"
   },
   {
-    "revision": "74e9f6dbb8626ab41d13",
+    "revision": "de1d94c28e29bc926064",
     "url": "/morganpstanley.github.io/static/css/main.6a82f7b4.chunk.css"
   },
   {
-    "revision": "099b75cd67204da18a2f",
-    "url": "/morganpstanley.github.io/static/js/2.2b75cc07.chunk.js"
+    "revision": "7b631b37aa47a9dc3793",
+    "url": "/morganpstanley.github.io/static/js/2.b52b2e60.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/morganpstanley.github.io/static/js/2.2b75cc07.chunk.js.LICENSE.txt"
+    "url": "/morganpstanley.github.io/static/js/2.b52b2e60.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "74e9f6dbb8626ab41d13",
-    "url": "/morganpstanley.github.io/static/js/main.d7b3dada.chunk.js"
+    "revision": "de1d94c28e29bc926064",
+    "url": "/morganpstanley.github.io/static/js/main.9cd3ba41.chunk.js"
   },
   {
     "revision": "5540b393d3567d53f8d4",
