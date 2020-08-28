@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/morganpstanley.github.io/static/css/main.6a82f7b4.chunk.css",
-    "main.js": "/morganpstanley.github.io/static/js/main.4ed4af34.chunk.js",
-    "main.js.map": "/morganpstanley.github.io/static/js/main.4ed4af34.chunk.js.map",
+    "main.js": "/morganpstanley.github.io/static/js/main.123e87bc.chunk.js",
+    "main.js.map": "/morganpstanley.github.io/static/js/main.123e87bc.chunk.js.map",
     "runtime-main.js": "/morganpstanley.github.io/static/js/runtime-main.680e3a64.js",
     "runtime-main.js.map": "/morganpstanley.github.io/static/js/runtime-main.680e3a64.js.map",
-    "static/js/2.50163d3f.chunk.js": "/morganpstanley.github.io/static/js/2.50163d3f.chunk.js",
-    "static/js/2.50163d3f.chunk.js.map": "/morganpstanley.github.io/static/js/2.50163d3f.chunk.js.map",
+    "static/js/2.2b75cc07.chunk.js": "/morganpstanley.github.io/static/js/2.2b75cc07.chunk.js",
+    "static/js/2.2b75cc07.chunk.js.map": "/morganpstanley.github.io/static/js/2.2b75cc07.chunk.js.map",
     "index.html": "/morganpstanley.github.io/index.html",
-    "precache-manifest.ca5c57b95bd1308af8fa7c0907d81d17.js": "/morganpstanley.github.io/precache-manifest.ca5c57b95bd1308af8fa7c0907d81d17.js",
+    "precache-manifest.1ff37aa067faaeadbee9e4e928c5434d.js": "/morganpstanley.github.io/precache-manifest.1ff37aa067faaeadbee9e4e928c5434d.js",
     "service-worker.js": "/morganpstanley.github.io/service-worker.js",
     "static/css/main.6a82f7b4.chunk.css.map": "/morganpstanley.github.io/static/css/main.6a82f7b4.chunk.css.map",
-    "static/js/2.50163d3f.chunk.js.LICENSE.txt": "/morganpstanley.github.io/static/js/2.50163d3f.chunk.js.LICENSE.txt"
+    "static/js/2.2b75cc07.chunk.js.LICENSE.txt": "/morganpstanley.github.io/static/js/2.2b75cc07.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.680e3a64.js",
-    "static/js/2.50163d3f.chunk.js",
+    "static/js/2.2b75cc07.chunk.js",
     "static/css/main.6a82f7b4.chunk.css",
-    "static/js/main.4ed4af34.chunk.js"
+    "static/js/main.123e87bc.chunk.js"
   ]
 }
