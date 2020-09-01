@@ -13,13 +13,8 @@
 }
 
 #logo {
-    grid-column: 4 / 8;
     grid-row: 2;
-    font-weight: 600;
-    border: 3px solid black;
-    align-self: baseline;
-    font-size: larger;
-    letter-spacing: 2px;
+    grid-column: 3;
 }
 
 .link {
@@ -37,23 +32,23 @@ a:hover {
 }
 
 #menu-about {
-    grid-row: 4;
-}
-
-#menu-portfolio {
     grid-row: 5;
 }
 
-#menu-resume {
+#menu-portfolio {
     grid-row: 6;
 }
 
-#menu-blog {
+#menu-resume {
     grid-row: 7;
 }
 
-#menu-contact {
+#menu-blog {
     grid-row: 8;
+}
+
+#menu-contact {
+    grid-row: 9;
 }
 
 .link:hover {
@@ -67,4 +62,8 @@ a:hover {
 
 #menu-symbol img {
     width: 100%;
+}
+
+#signature {
+    width: 80px;
 }

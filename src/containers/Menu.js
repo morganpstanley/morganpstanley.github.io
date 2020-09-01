@@ -9,7 +9,7 @@ class Menu extends Component {
         return(
         <menu className="menu">
                 <div id="logo">
-                    MPS
+                    <img id="signature" src={process.env.PUBLIC_URL + '/website-signature.png'} alt="logo"></img>
                 </div>
             <div className="link" id="menu-about">
                 <Link to="/">Home</Link>
