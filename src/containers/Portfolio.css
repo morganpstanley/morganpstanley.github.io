@@ -1,27 +1,26 @@
 #portfolio-page-body {
     padding: 5px;
-    height: 85vh;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 5fr 1fr;
+    justify-items: center;
 }
 
 .portfolio-item{
+    grid-column: 2;
     background-color: white;
-    border-radius: 20px;
     box-shadow: 2px 2px 5px grey;
     margin: 10px;
     width: 90%;
-    height: 300px;
+    overflow: hidden;
+    text-align: center;
 }
 
 .portfolio-item img {
-    max-width: 90%;
-    max-height: 90%;
+    max-width: 100%;
+    max-height: 100%;
 }
 
 #prolift {
-    border-radius: 20px;
     filter: grayscale(0%);
     object-fit: cover;
     width: 100%;
@@ -32,3 +31,8 @@
     filter: grayscale(100%);
     color: black;
 }
+
+.Pane2 #portfolio-page-body {
+    text-align: center;
+    overflow: auto;
+  }
