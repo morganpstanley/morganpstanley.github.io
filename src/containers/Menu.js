@@ -9,7 +9,7 @@ class Menu extends Component {
         return(
         <menu className="menu">
                 <div id="logo">
-                    <img id="signature" src={process.env.PUBLIC_URL + '/website-signature.png'} alt="logo"></img>
+                    <img id="signature" src={process.env.PUBLIC_URL + '/white-signature.png'} alt="logo"></img>
                 </div>
             <div className="link" id="menu-about">
                 <Link to="/">Home</Link>
@@ -27,7 +27,7 @@ class Menu extends Component {
                 <Link to="/contact">Contact</Link>
             </div>
             <div id="menu-symbol">
-                <img src={process.env.PUBLIC_URL + '/littlerocket.png'} alt="rocket"></img>
+                ✤
             </div>
         </menu>
         )
