@@ -10,19 +10,13 @@ class Portfolio extends Component {
                 <h1 className="page-header">Portfolio</h1>
                 <div id="portfolio-page-body">
                     <div className="portfolio-item">
-                        hello
+                        <img id='horse' src={process.env.PUBLIC_URL + '/littletree.png'} alt="rocket"></img>
                     </div>
                     <div className="portfolio-item">
-                        hello
+                        <img id='horse' src={process.env.PUBLIC_URL + '/littlerocket.png'} alt="rocket"></img>
                     </div>
                     <div className="portfolio-item">
-                        hello
-                    </div>
-                    <div className="portfolio-item">
-                        hello
-                    </div>
-                    <div className="portfolio-item">
-                        hello
+                    <img id='horse' src={process.env.PUBLIC_URL + '/prolift.png'} alt="rocket"></img>
                     </div>
                 </div>
             </div>

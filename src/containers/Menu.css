@@ -7,7 +7,7 @@
     align-content: center;
     border-right: 1px solid black;
     height: 100vh;
-    background-color: white;
+    background-color: rgb(17, 17, 17);
     padding: 0px;
     margin: 0px;
 }
@@ -21,14 +21,14 @@
     grid-column: 3 / 9;
 }
 
-a {
+.menu a {
     padding: 10px;
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 a:hover {
-    color: gray;
+    color: royalblue;
 }
 
 #menu-about {
@@ -51,17 +51,15 @@ a:hover {
     grid-row: 9;
 }
 
-.link:hover {
-    color: red;
-}
-
 #menu-symbol {
-    grid-column: 4 / 8;
+    grid-column: 5 / 6;
     grid-row: 15;
 }
 
-#menu-symbol img {
+#menu-symbol {
     width: 100%;
+    color: white;
+    font-size: 20px;
 }
 
 #signature {
