@@ -8,10 +8,6 @@ html, body {
   background-color: whitesmoke;
 }
 
-/* p, h1, h2 {
-  color: white;
-} */
-
 h1 {
   font-family: 'Playfair Display', serif;
 }
@@ -24,5 +20,5 @@ code {
 
 .Pane2 {
   text-align: center;
-  margin: auto;
+  overflow: auto;
 }

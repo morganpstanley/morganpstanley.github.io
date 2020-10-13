@@ -9,6 +9,11 @@
     text-align: left;
 }
 
+.blog-page {
+    position: relative;
+    top: 35vh;
+}
+
 #blog-link {
     font-style: italic;
     text-decoration: underline !important;
