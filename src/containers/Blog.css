@@ -8,3 +8,8 @@
     margin: 0px 50px;
     text-align: left;
 }
+
+#blog-link {
+    font-style: italic;
+    text-decoration: underline !important;
+}
