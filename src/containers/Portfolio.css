@@ -27,12 +27,25 @@
     height: 100%;
 }
 
-#prolift:hover {
-    filter: grayscale(100%);
-    color: black;
+.portfolio-item:hover {
+    float: left;
 }
 
 .Pane2 #portfolio-page-body {
     text-align: center;
     overflow: auto;
   }
+
+.description {
+    grid-column: 2;
+    margin-top: 0px;
+    display: inline;
+    padding-right: 20px;
+}
+
+.project-name {
+    font-size: 20px;
+    font-style: italic;
+    grid-column: 2;
+    font-family: 'Playfair Display', serif;
+}
