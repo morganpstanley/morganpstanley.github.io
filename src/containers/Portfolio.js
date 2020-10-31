@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { Carousel } from "react-responsive-carousel";
 
-import "/Users/Morgan/Development/morganpstanley.github.io/node_modules/react-responsive-carousel/lib/styles/carousel.css"
+import "./Carousel.css"
 import './Portfolio.css'
 
 class Portfolio extends Component {
