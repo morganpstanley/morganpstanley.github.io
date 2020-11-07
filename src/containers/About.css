@@ -1,7 +1,3 @@
-#about {
-    grid-column: 2;
-}
-
 .about-page {
     height: 100vh;
     width: 100vw;
@@ -15,6 +11,47 @@
 }
 
 #about-text {
+    text-align: center;
+    position: absolute;
+    top: 40%;
+    width: 100vw;
+}
+
+#signature {
     position: relative;
-    top: 35vh;
+    width: 100px;
+    z-index: 2;
+    margin: 10px 30px;
+    float: left;
+}
+
+#header {
+    font-family: 'Playfair Display', serif;
+    width: 100vw;
+    height: 30px;
+}
+
+.link {
+    margin: 50px 15px;
+    font-size: 1rem;
+    float: left;
+}
+
+button {
+    font-family: 'Playfair Display', serif;
+    background: none;
+    border: none;
+    color: white;
+    
+}
+
+button:active {
+    border: none;
+    outline: none;
+    color: royalblue;
+}
+
+*:focus {
+    outline: 0 !important;
+    text-decoration: underline;
 }
