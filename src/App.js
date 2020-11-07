@@ -12,18 +12,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-        <Router>
-          <SplitPane defaultSize={150}>
-              <Menu/>
-            <div id="page">
-              <Route exact path="/" component={About} />
-              <Route path="/portfolio" component={Portfolio} />
-              <Route path="/resume" component={Resume} />
-              <Route path="/blog" component={Blog} />
-              <Route path="/contact" component={Contact} />
-            </div>
-          </SplitPane>
-        </Router>
+      <About />
     </div>
   );
 }
