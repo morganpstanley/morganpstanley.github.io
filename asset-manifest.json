@@ -1,25 +1,30 @@
 {
   "files": {
-    "main.css": "/morganpstanley.github.io/static/css/main.6d1315c8.chunk.css",
-    "main.js": "/morganpstanley.github.io/static/js/main.652a546d.chunk.js",
-    "main.js.map": "/morganpstanley.github.io/static/js/main.652a546d.chunk.js.map",
+    "main.css": "/morganpstanley.github.io/static/css/main.361609a4.chunk.css",
+    "main.js": "/morganpstanley.github.io/static/js/main.ce097753.chunk.js",
+    "main.js.map": "/morganpstanley.github.io/static/js/main.ce097753.chunk.js.map",
     "runtime-main.js": "/morganpstanley.github.io/static/js/runtime-main.680e3a64.js",
     "runtime-main.js.map": "/morganpstanley.github.io/static/js/runtime-main.680e3a64.js.map",
-    "static/css/2.9dd49d4e.chunk.css": "/morganpstanley.github.io/static/css/2.9dd49d4e.chunk.css",
-    "static/js/2.a02b3788.chunk.js": "/morganpstanley.github.io/static/js/2.a02b3788.chunk.js",
-    "static/js/2.a02b3788.chunk.js.map": "/morganpstanley.github.io/static/js/2.a02b3788.chunk.js.map",
+    "static/js/2.c7012e73.chunk.js": "/morganpstanley.github.io/static/js/2.c7012e73.chunk.js",
+    "static/js/2.c7012e73.chunk.js.map": "/morganpstanley.github.io/static/js/2.c7012e73.chunk.js.map",
     "index.html": "/morganpstanley.github.io/index.html",
-    "precache-manifest.19a501ee9d311bf3f1876a51c07675e9.js": "/morganpstanley.github.io/precache-manifest.19a501ee9d311bf3f1876a51c07675e9.js",
+    "precache-manifest.638b279cf99fa660bec268e6b8f98cfa.js": "/morganpstanley.github.io/precache-manifest.638b279cf99fa660bec268e6b8f98cfa.js",
     "service-worker.js": "/morganpstanley.github.io/service-worker.js",
-    "static/css/2.9dd49d4e.chunk.css.map": "/morganpstanley.github.io/static/css/2.9dd49d4e.chunk.css.map",
-    "static/css/main.6d1315c8.chunk.css.map": "/morganpstanley.github.io/static/css/main.6d1315c8.chunk.css.map",
-    "static/js/2.a02b3788.chunk.js.LICENSE.txt": "/morganpstanley.github.io/static/js/2.a02b3788.chunk.js.LICENSE.txt"
+    "static/css/main.361609a4.chunk.css.map": "/morganpstanley.github.io/static/css/main.361609a4.chunk.css.map",
+    "static/js/2.c7012e73.chunk.js.LICENSE.txt": "/morganpstanley.github.io/static/js/2.c7012e73.chunk.js.LICENSE.txt",
+    "static/media/Portfolio.css": "/morganpstanley.github.io/static/media/4kbackground.e7ca5c3f.webp",
+    "static/media/prolift-1.png": "/morganpstanley.github.io/static/media/prolift-1.9102f40a.png",
+    "static/media/prolift-2.png": "/morganpstanley.github.io/static/media/prolift-2.a670a2f3.png",
+    "static/media/prolift-3.png": "/morganpstanley.github.io/static/media/prolift-3.3f3ad298.png",
+    "static/media/stocker-home.png": "/morganpstanley.github.io/static/media/stocker-home.81177f7e.png",
+    "static/media/stocker-signin.png": "/morganpstanley.github.io/static/media/stocker-signin.8ad9b012.png",
+    "static/media/stocker-signup.png": "/morganpstanley.github.io/static/media/stocker-signup.8f0e7c53.png",
+    "static/media/white-signature.png": "/morganpstanley.github.io/static/media/white-signature.43114ab2.png"
   },
   "entrypoints": [
     "static/js/runtime-main.680e3a64.js",
-    "static/css/2.9dd49d4e.chunk.css",
-    "static/js/2.a02b3788.chunk.js",
-    "static/css/main.6d1315c8.chunk.css",
-    "static/js/main.652a546d.chunk.js"
+    "static/js/2.c7012e73.chunk.js",
+    "static/css/main.361609a4.chunk.css",
+    "static/js/main.ce097753.chunk.js"
   ]
 }
