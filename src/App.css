@@ -60,3 +60,22 @@ button:active {
   display: none;
   transition: 1s;
 }
+
+.square {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 15rem;
+    height: 15rem;
+    background-color: rgb(255,255,255);
+    padding: 4rem 2rem 0rem;
+}
+
+#menu-bar {
+    background-color: white;
+}
+
+.link:hover {
+    background-color: white;
+}

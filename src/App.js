@@ -3,6 +3,7 @@ import './App.css'
 import Contact from "./containers/Contact.js"
 import Portfolio from './containers/Portfolio'
 import sig from './assets/website-signature.png'
+import resume from './assets/software-developer-resume.pdf'
 
 class App extends Component {
 
@@ -39,18 +40,22 @@ class App extends Component {
     return(
       <div className="App">
         <div id="header">
-          <img src={sig} id="signature" alt="signature" />
-          <button className="link" id="aboutButton" onClick={this.handleToggle}>About</button>
-          <button className="link"  id="portfolioButton" onClick={this.handleToggle}>Portfolio</button>
-          <button className="link"  id="contactButton" onClick={this.handleToggle}>Contact</button>
-          <a className="link" href="https://medium.com/@morganpstanley">Blog⤤</a>
-          <a className="link" href="https://docs.google.com/document/d/e/2PACX-1vRz0REkDGRXf_f5P_VgXC_jD8hGxeFZWm10WVxKCrY_C0qh7iZbQhim0cIslSFvV3mfAzqrGdsq2ZET/pub">Resume⤤</a>
+            <img src={sig} id="signature" alt="Morgan Stanley" />
+            <div id="menu-bar">
+                <button className="link" id="aboutButton" onClick={this.handleToggle}>About</button>
+                <button className="link"  id="portfolioButton" onClick={this.handleToggle}>Portfolio</button>
+                <button className="link"  id="contactButton" onClick={this.handleToggle}>Contact</button>
+                <a className="link" href="https://medium.com/@morganpstanley">Blog⤤</a>
+                <a className="link" href={resume} target="_blank" rel="noopener noreferrer">Resume⤤</a>
+            </div>
         </div>
         <div className={`page ${this.state.aboutButton ? null : "hidden"}`} id="about">
-          <h1 className="page-header" >Welcome.</h1>
-          <p className="page-text">
-              My name is Morgan P Stanley. I'm a software developer.
-          </p>
+          <div className="square">
+            <h1 className="page-header" >Welcome.</h1>
+            <p className="page-text">
+                My name is Morgan P Stanley. I'm a software developer.
+            </p>
+          </div>
         </div>
         <div className={`page ${this.state.contactButton ? "" : "hidden"}`} id="contact">
           <Contact />
