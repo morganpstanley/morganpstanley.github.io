@@ -15,10 +15,10 @@ class Contact extends Component {
 
     render() {
         return(
-            <div className="contact-page">
+            <div className="square">
                 <h1 className="page-header" > Contact </h1>
                 <p className="page-text">
-                    If you'd like to contact me, please feel free to email at <a href={this.state.link}>{this.state.email} </a>
+                    Feel free to email at <a href={this.state.link}>{this.state.email} </a>
                 </p>
             </div>
         )
