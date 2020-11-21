@@ -65,6 +65,10 @@
     color: white;
 }
 
+.bullets p {
+    margin-top: 0px;
+}
+
 #portfolio .page-header {
     border-bottom-color: rgb(255,255,255,.1);
     border-bottom-style: solid;
@@ -84,7 +88,6 @@
 }
 
 .carousel-root {
-    margin-top: 8%;
     width: 90%;
     grid-column: 3;
     grid-row: 1;
@@ -114,7 +117,7 @@
 }
 
 #portfolio {
-    background-color:rgb(0,0,0,.85);
+    background-color:rgb(0,0,0,.9);
     top: 15vh;
     position: absolute;
     height: 100vh;
@@ -138,4 +141,38 @@
 
 ul.thumbs.animated {
     padding-left: 0px;
+}
+
+@media only screen and (max-width: 600px) {
+    #portfolio-body {
+        padding: 0px 5px 5px 5px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 10fr;
+        height: 70vh;
+        width: 100vw;
+    }
+
+    #project-title {
+        grid-row: 1;
+    }
+
+    #project-names {
+        border-right-color: rgb(255,255,255,.1);
+        width: 100%;
+        border-right-style: solid;
+        grid-column: 1;
+        grid-row: 2;
+        display: grid;
+        text-align: left;
+        grid-template-rows: repeat(15, 1fr);
+    }
+
+    .portfolio-item {
+        display: inline;
+    }
+
+    .carousel.thumb {
+        width: 60px;
+    }
 }

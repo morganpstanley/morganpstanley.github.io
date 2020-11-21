@@ -30,7 +30,6 @@ class Portfolio extends Component {
             pro_build: true
           })
       }
-      console.log('state: ', this.state)
     }
 
     render() {
