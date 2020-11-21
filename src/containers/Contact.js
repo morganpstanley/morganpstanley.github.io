@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import ContactForm from './ContactForm'
 import './Contact.css'
 
 class Contact extends Component {
@@ -17,8 +18,10 @@ class Contact extends Component {
         return(
             <div className="square">
                 <h1 className="page-header" > Contact </h1>
+                 <ContactForm />
                 <p className="page-text">
-                    Feel free to email at <a href={this.state.link}>{this.state.email} </a>
+                    Or feel free to email me at <br />
+                    <a href={this.state.link}>{this.state.email} </a>
                 </p>
             </div>
         )
