@@ -7,7 +7,6 @@ import "./Carousel.css"
 class Project extends Component {
 
     render() {
-        console.log(this.props)
         const {PROJECT_NAME, 
             PROJECT_LANGUAGES, 
             PROJECT_BULLETS, 
