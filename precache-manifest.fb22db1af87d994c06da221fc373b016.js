@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0bb37fd25103834a6f538a4e934ad785",
+    "revision": "c0427d49feb8cb39fc8cc6f898986a4a",
     "url": "/morganpstanley.github.io/index.html"
   },
   {
-    "revision": "bfe15dfb32b169911690",
+    "revision": "d152a2cb577d90208498",
     "url": "/morganpstanley.github.io/static/css/main.964ee043.chunk.css"
   },
   {
-    "revision": "de828ac3d865637becfb",
-    "url": "/morganpstanley.github.io/static/js/2.0e42f2d0.chunk.js"
+    "revision": "5a7aa1dfbf7a1504a2c9",
+    "url": "/morganpstanley.github.io/static/js/2.1fde8a6e.chunk.js"
   },
   {
     "revision": "8a137f586fcebb1a370343eb47b7677c",
-    "url": "/morganpstanley.github.io/static/js/2.0e42f2d0.chunk.js.LICENSE.txt"
+    "url": "/morganpstanley.github.io/static/js/2.1fde8a6e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "bfe15dfb32b169911690",
-    "url": "/morganpstanley.github.io/static/js/main.3f7972a4.chunk.js"
+    "revision": "d152a2cb577d90208498",
+    "url": "/morganpstanley.github.io/static/js/main.254d1815.chunk.js"
   },
   {
     "revision": "5540b393d3567d53f8d4",
@@ -26,6 +26,18 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "f07a5d9608e294a10aeffe43b064bbab",
     "url": "/morganpstanley.github.io/static/media/Surf SS240367291.f07a5d96.jpg"
+  },
+  {
+    "revision": "10b431a66c05bb2936ce0bd2c561e554",
+    "url": "/morganpstanley.github.io/static/media/chessbattery-1.10b431a6.png"
+  },
+  {
+    "revision": "369ffb9dad84642b07d4eb1d1aae2968",
+    "url": "/morganpstanley.github.io/static/media/chessbattery-2.369ffb9d.png"
+  },
+  {
+    "revision": "e210f1614a19c8a8009e84ef33b833e0",
+    "url": "/morganpstanley.github.io/static/media/chessbattery-3.e210f161.png"
   },
   {
     "revision": "89c2c0674bdba3d61daf6b1b1e5e82b5",
@@ -44,8 +56,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/morganpstanley.github.io/static/media/prolift-3.3f3ad298.png"
   },
   {
-    "revision": "44df244450bb67824ed74ca0b79c1915",
-    "url": "/morganpstanley.github.io/static/media/software-developer-resume.44df2444.pdf"
+    "revision": "6d2b1d1a5d9c907ce24da68d565f10a3",
+    "url": "/morganpstanley.github.io/static/media/software-developer-resume.6d2b1d1a.pdf"
   },
   {
     "revision": "81177f7e4963bc616992f013d664819a",
