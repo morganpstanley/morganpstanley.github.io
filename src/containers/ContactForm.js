@@ -11,6 +11,7 @@ export default class ContactForm extends React.Component {
 
   render() {
     const { status } = this.state;
+    console.log(status)
     return (
       <form
         id="contact-form"

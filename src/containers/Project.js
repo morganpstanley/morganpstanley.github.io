@@ -7,7 +7,8 @@ import "./Carousel.css"
 class Project extends Component {
 
     render() {
-        const {PROJECT_NAME, 
+        const {PROJECT_NAME,
+            PROJECT_LINK, 
             PROJECT_LANGUAGES, 
             PROJECT_BULLETS, 
             PROJECT_IMAGES, 
@@ -32,11 +33,11 @@ class Project extends Component {
 
 
         return(
-            <React.Fragment>
-                <div key={this.props.PROJECT_NAME} id="project-description">
-                <span>{PROJECT_NAME}</span>
-                <a href={GITHUB_LINK}><img id="github-logo" src={githubLogo} alt="Github Link"></img></a>
-                <p className="description">{PROJECT_LANGUAGES}</p>
+            <div className="project">
+                <div key={PROJECT_NAME} id="project-description">
+                    <span>{PROJECT_LINK ? <a href={PROJECT_LINK}>{PROJECT_NAME}</a> : PROJECT_NAME}</span>
+                    <a href={GITHUB_LINK}><img id="github-logo" src={githubLogo} alt="Github Link"></img></a>
+                    <p className="description">{PROJECT_LANGUAGES}</p>
                 </div>
                 <div className="portfolio-item">
                     <Carousel {...getConfigurableProps()}>
@@ -54,10 +55,11 @@ class Project extends Component {
                         <div className="bullets">
                             <p>{PROJECT_BULLETS[0]}</p>
                             <p>{PROJECT_BULLETS[1]}</p>
+                            <p>{PROJECT_BULLETS[2]}</p>
                         </div>
                     </div>
                 </div>
-            </React.Fragment>
+            </div>
         )
     }
 }
