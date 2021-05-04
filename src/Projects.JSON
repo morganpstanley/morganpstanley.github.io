@@ -1,0 +1,9 @@
+[
+  {
+    "name": "Chess_Battery",
+    "link": "http://chessbattery.com",
+    "stack": ["React", "HTML", "CSS"],
+    "modules": ["chess.js", "stockfish.js", "chessground.js"],
+    "description": "chessbattery is a website to teach beginners not only the what, but the why behind basic starting moves."
+    }
+  ]

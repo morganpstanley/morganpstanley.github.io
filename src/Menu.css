@@ -1,0 +1,46 @@
+#menu {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+}
+
+#info {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 500;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.option {
+  padding: 4px;
+  margin: 10px 0px 10px;
+}
+
+#menu button {
+  border: 1.5px solid transparent;
+  border-radius: 2px;
+  color: black;
+  position: relative;
+}
+
+#menu button:hover {
+  border: 1.5px solid black;
+  border-radius: 2px;
+}
+
+#options {
+  grid-column: 1;
+}
+
+#info {
+  grid-column: 2;
+}
+
+img {
+  display: block;
+  margin: 50px 0px 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
