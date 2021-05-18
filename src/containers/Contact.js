@@ -19,10 +19,6 @@ class Contact extends Component {
             <div className="square">
                 <h1 className="page-header" > Contact </h1>
                  <ContactForm />
-                <p className="page-text">
-                    Or feel free to email me at <br />
-                    <a href={this.state.link}>{this.state.email} </a>
-                </p>
             </div>
         )
     }
