@@ -1,11 +1,7 @@
 .App {
-  background-image: url('./assets/Surf\ SS240367291.jpg');
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  width: 100vw;
-  height: 100vh;
+  background-image: url('./assets/Dollarphotoclub_91744824.jpg');
+  height: 98vh;
+  border: 10px solid white;
 }
 
 .page-text {
@@ -69,13 +65,13 @@ button {
     transform: translate(-50%, -50%);
     width: 16rem;
     height: 16rem;
-    background-color: white;
+    background-color: rgb(255,255,255,.3);
     padding: 4rem 2rem 0rem;
     transition: all .3s linear;
 }
 
 .link:hover {
-    background-color: white;
+    background-color: rgb(255,255,255,.2);
 }
 
 .inverted {
@@ -145,7 +141,7 @@ button {
         text-align: center;
     }
 
-    #contact .page .square {
+    #contact-area .page .square {
         width: 100vw;
         height: 60vh;
         top: 55%;
