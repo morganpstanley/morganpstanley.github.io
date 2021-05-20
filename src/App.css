@@ -1,7 +1,8 @@
 .App {
-  background-image: url('./assets/Dollarphotoclub_91744824.jpg');
-  height: 98vh;
+  background-image: url('./assets/cropped.jpg');
+  height: 100vh;
   border: 10px solid white;
+  border-bottom: none;
 }
 
 .page-text {
@@ -26,7 +27,6 @@
 }
 
 #header {
-  font-family: 'Playfair Display', serif;
   width: 100vw;
   height: 15vh;
 }
@@ -41,7 +41,6 @@
 }
 
 button {
-  font-family: 'Playfair Display', serif;
   background: none;
   border: none;
   color: black;
@@ -70,8 +69,12 @@ button {
     transition: all .3s linear;
 }
 
-.link:hover {
-    background-color: rgb(255,255,255,.2);
+a:hover, button:hover {
+  background-color: var(--transparent-2);
+}
+
+#project-names > button:hover {
+  background-color: rgb(0,0,0,.2);
 }
 
 .inverted {

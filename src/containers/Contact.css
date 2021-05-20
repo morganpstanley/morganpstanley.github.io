@@ -44,13 +44,7 @@ textarea {
     grid-row: 3;
 }
 
-::placeholder {
-    font-family: 'Playfair Display', serif;
-    font-size: 1.1rem;
-}
-
 .page-text a {
-    font-family: 'Playfair Display', serif;
     font-size: 1.4rem;
 }
 
@@ -58,15 +52,10 @@ textarea {
     grid-row: 5;
 }
 
-.form--input {
-    font-family: 'Playfair Display', serif;
-}
-
 button[type="submit"] {
-    font-family: "Playfair Display",serif;
     margin-top: 20px;
     padding: 10px 15px;
-    background-color: rgb(255,255,255,.2);
+    background-color: var(--transparent-2);
     font-size: 1.1rem;
     width: 120px;
     justify-self: center;
@@ -74,7 +63,6 @@ button[type="submit"] {
 }
 
 #thanks {
-    font-family: "Playfair Display", serif;
     position: absolute;
     top: 50%;
     left: 50%;

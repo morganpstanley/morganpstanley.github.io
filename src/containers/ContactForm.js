@@ -5,12 +5,12 @@ import { useForm, ValidationError } from '@formspree/react';
 function ContactForm() {
     const [state, handleSubmit] = useForm("xknpzqqj");
     if (state.succeeded) {
-        return <p id="thanks">Thank you. I'll get back to you as soon as I can.</p>;
+        return <p id="thanks" className="font-playfair">Thank you. I'll get back to you as soon as I can.</p>;
     }
     return (
         <form id="contact-form" onSubmit={handleSubmit}>
             <div className="form--input">
-                <label htmlFor="name"> 
+                <label htmlFor="name" className="font-playfair"> 
                     Name
                 </label>
                 <input
@@ -27,7 +27,7 @@ function ContactForm() {
             </div>
 
             <div className="form--input">
-                <label htmlFor="email"> 
+                <label htmlFor="email" className="font-playfair" > 
                     Email
                 </label>
                 <input
@@ -44,7 +44,7 @@ function ContactForm() {
             </div>
 
             <div className="form--input">
-            <label htmlFor="message"> 
+            <label htmlFor="message"  className="font-playfair"> 
                     Message
                 </label>
                 <textarea
@@ -59,7 +59,7 @@ function ContactForm() {
                 />
             </div>
 
-            <button type="submit" id="submit" disabled={state.submitting}>
+            <button type="submit" id="submit"  className="font-playfair" disabled={state.submitting}>
                 Submit
             </button>
 
@@ -67,7 +67,7 @@ function ContactForm() {
 
             <p className="page-text">
                 Or feel free to email me at <br />
-                <a href="mailto:morganpstanley@gmail.com" >morganpstanley@gmail.com</a>
+                <a href="mailto:morganpstanley@gmail.com" className="font-playfair">morganpstanley@gmail.com</a>
             </p>
         </form>
     );

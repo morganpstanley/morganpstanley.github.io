@@ -19,9 +19,8 @@
 
 #project-title {
     color: white;
-    font-family: 'Playfair Display', serif;
     font-size: 1.3rem;
-    border-right-color: rgb(255,255,255,.1);
+    border-right-color: var(--transparent-1);
     border-right-style: solid;
     margin: 0px;
     padding-top: 1rem;
@@ -31,7 +30,6 @@
 #project-description {
     grid-area: description-title;
     color: white;
-    font-family: 'Playfair Display', serif;
     font-size: 1.3rem;
     margin: 0px;
     padding: 1rem;
@@ -40,12 +38,11 @@
 
 #description-title {
     grid-area: description-title;
-    font-family: 'Playfair Display', serif;
     font-size: 1.3rem;
 }
 
 #project-names {
-    border-right-color: rgb(255,255,255,.1);
+    border-right-color: var(--transparent-1);
     border-right-style: solid;
     grid-area: project;
     display: grid;
@@ -70,7 +67,7 @@
 }
 
 #portfolio-area .page-header {
-    border-bottom-color: rgb(255,255,255,.1);
+    border-bottom-color: var(--transparent-1);
     border-bottom-style: solid;
     padding-bottom: 21px;
     margin-bottom: 0px;
@@ -117,7 +114,7 @@
 }
 
 #portfolio-area {
-    background-color:rgb(0,0,0,.9);
+    background-color: rgb(0,0,0,.2);
     top: 15vh;
     position: absolute;
     height: 100vh;
@@ -162,7 +159,7 @@ a.project-link {
     }
 
     #project-names {
-        border-right-color: rgb(255,255,255,.1);
+        border-right-color: var(--transparent-1);
         width: 100%;
         border-right-style: solid;
         grid-column: 1;

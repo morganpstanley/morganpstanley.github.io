@@ -46,16 +46,16 @@ const App = () => {
                 <img src={sig} id="signature" className={mobile ? "inverted" : null} alt="Morgan Stanley" />
                 <button id="hamburger-icon" className={mobile ? "showClose" : null} onClick={toggleMenu}></button>
                 <nav className={`navbar ${mobile ? "showNav" : null}`}>
-                    <button id="about" className="link" onClick={handleToggle}>About</button>
-                    <button id="portfolio" className="link" onClick={handleToggle}>Portfolio</button>
-                    <button id="contact" className="link" onClick={handleToggle}>Contact</button>
-                    <a className="link" href="https://medium.com/@morganpstanley">Blog⤤</a>
-                    <a className="link" href={resume} target="_blank" rel="noopener noreferrer">Resume⤤</a>
+                    <button id="about" className="link font-playfair" onClick={handleToggle}>About</button>
+                    <button id="portfolio" className="link font-playfair" onClick={handleToggle}>Portfolio</button>
+                    <button id="contact" className="link font-playfair" onClick={handleToggle}>Contact</button>
+                    <a className="link font-playfair" href="https://medium.com/@morganpstanley">Blog⤤</a>
+                    <a className="link font-playfair" href={resume} target="_blank" rel="noopener noreferrer">Resume⤤</a>
                 </nav>
             </div>
             <div className={`page ${about && !mobile ? null : "hidden"}`} id="about">
                 <div className="square">
-                    <h1 className="page-header" >Welcome.</h1>
+                    <h1 className="page-header font-playfair" >Welcome.</h1>
                     <p className="page-text">
                         <span>My name is Morgan Stanley. </span> 
                         <br />

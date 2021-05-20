@@ -32,11 +32,18 @@ const Project = ({project}) => {
 
     const showBullets = PROJECT_BULLETS.map((bullet, i) => <p key={i}>{bullet}</p>)
 
-    const showImages = PROJECT_IMAGES.map((image, i) => <img key={i} src={image} alt="Portfolio Project" />)
+    const showImages = PROJECT_IMAGES.map((image, i) => 
+        <img 
+            key={i} 
+            src={image} 
+            alt="Portfolio Project" 
+        />)
 
     const showProjectName = (projectName, link = null) => {
-        if (link) return <a href={link} className="project-link">{projectName}⤤</a>
-        return <span>{projectName}</span>
+        if (link) return (
+            <a href={link} className="project-link font-playfair">{projectName}⤤</a>
+        )
+        return <span className="font-playfair">{projectName}</span>
     }
 
     return(

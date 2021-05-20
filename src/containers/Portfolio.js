@@ -33,9 +33,9 @@ const Portfolio = () => {
 
     return(
         <React.Fragment>
-            <h1 className="page-header">Portfolio</h1>
+            <h1 className="page-header font-playfair">Portfolio</h1>
             <div id="portfolio-body">
-            <p id="project-title">Project</p>
+            <p id="project-title" className="font-playfair">Project</p>
                 <div id="project-names">
                     <button className="project-name" id="chess_battery" onClick={handleToggle}>chess_battery</button>
                     <button className="project-name" id="stocker" onClick={handleToggle}>stocker</button>
