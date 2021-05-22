@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c31dbe21a1784276de347bed3f2acaf0",
+    "revision": "e4c903a5484607b24c704a0e3d9bade2",
     "url": "/morganpstanley.github.io/index.html"
   },
   {
-    "revision": "da987e81d863e2c441db",
-    "url": "/morganpstanley.github.io/static/css/main.2d42398f.chunk.css"
+    "revision": "a73b33055e007d863720",
+    "url": "/morganpstanley.github.io/static/css/main.7634b480.chunk.css"
   },
   {
     "revision": "106c56b99d189c456c47",
@@ -16,12 +16,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/morganpstanley.github.io/static/js/2.c971a08d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "da987e81d863e2c441db",
-    "url": "/morganpstanley.github.io/static/js/main.f27a4c69.chunk.js"
+    "revision": "a73b33055e007d863720",
+    "url": "/morganpstanley.github.io/static/js/main.5134db13.chunk.js"
   },
   {
     "revision": "5540b393d3567d53f8d4",
     "url": "/morganpstanley.github.io/static/js/runtime-main.680e3a64.js"
+  },
+  {
+    "revision": "117be28a760dad47011daa2ef0135f51",
+    "url": "/morganpstanley.github.io/static/media/PlayfairDisplay-Italic-VariableFont_wght.117be28a.ttf"
   },
   {
     "revision": "10b431a66c05bb2936ce0bd2c561e554",
