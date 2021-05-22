@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/morganpstanley.github.io/static/css/main.d6bfa110.chunk.css",
-    "main.js": "/morganpstanley.github.io/static/js/main.d7777374.chunk.js",
-    "main.js.map": "/morganpstanley.github.io/static/js/main.d7777374.chunk.js.map",
+    "main.css": "/morganpstanley.github.io/static/css/main.2d42398f.chunk.css",
+    "main.js": "/morganpstanley.github.io/static/js/main.f27a4c69.chunk.js",
+    "main.js.map": "/morganpstanley.github.io/static/js/main.f27a4c69.chunk.js.map",
     "runtime-main.js": "/morganpstanley.github.io/static/js/runtime-main.680e3a64.js",
     "runtime-main.js.map": "/morganpstanley.github.io/static/js/runtime-main.680e3a64.js.map",
     "static/js/2.c971a08d.chunk.js": "/morganpstanley.github.io/static/js/2.c971a08d.chunk.js",
     "static/js/2.c971a08d.chunk.js.map": "/morganpstanley.github.io/static/js/2.c971a08d.chunk.js.map",
     "index.html": "/morganpstanley.github.io/index.html",
-    "precache-manifest.ae0ec718352c1ab3b4e629c772949e8a.js": "/morganpstanley.github.io/precache-manifest.ae0ec718352c1ab3b4e629c772949e8a.js",
+    "precache-manifest.e166f595376e5185dfd35cd80db85fc0.js": "/morganpstanley.github.io/precache-manifest.e166f595376e5185dfd35cd80db85fc0.js",
     "service-worker.js": "/morganpstanley.github.io/service-worker.js",
-    "static/css/main.d6bfa110.chunk.css.map": "/morganpstanley.github.io/static/css/main.d6bfa110.chunk.css.map",
+    "static/css/main.2d42398f.chunk.css.map": "/morganpstanley.github.io/static/css/main.2d42398f.chunk.css.map",
     "static/js/2.c971a08d.chunk.js.LICENSE.txt": "/morganpstanley.github.io/static/js/2.c971a08d.chunk.js.LICENSE.txt",
     "static/media/chessbattery-1.png": "/morganpstanley.github.io/static/media/chessbattery-1.10b431a6.png",
     "static/media/chessbattery-2.png": "/morganpstanley.github.io/static/media/chessbattery-2.369ffb9d.png",
@@ -29,7 +29,7 @@
   "entrypoints": [
     "static/js/runtime-main.680e3a64.js",
     "static/js/2.c971a08d.chunk.js",
-    "static/css/main.d6bfa110.chunk.css",
-    "static/js/main.d7777374.chunk.js"
+    "static/css/main.2d42398f.chunk.css",
+    "static/js/main.f27a4c69.chunk.js"
   ]
 }
