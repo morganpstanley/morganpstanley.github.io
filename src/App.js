@@ -1,15 +1,14 @@
-import React, { useState, useEffect} from 'react'
+import React, { useState } from 'react'
 import './App.css'
-import Contact from "./containers/Contact.js"
-import Portfolio from './containers/Portfolio'
+import Contact from "./components/Contact.js"
+import Portfolio from './components/Portfolio'
 import sig from './assets/website-signature.png'
 import resume from './assets/software-developer-resume.pdf'
 
-const App = () => {
+console.log('𝙇𝙞𝙫𝙚 𝙡𝙤𝙣𝙜 𝙖𝙣𝙙 𝙥𝙧𝙤𝙨𝙥𝙚𝙧. 🖖', 'Thanks for visiting.')
 
-    useEffect(() => {
-        console.log('𝙇𝙞𝙫𝙚 𝙡𝙤𝙣𝙜 𝙖𝙣𝙙 𝙥𝙧𝙤𝙨𝙥𝙚𝙧. 🖖', 'Thanks for visiting.')
-    },[])
+
+const App = () => {
 
     const [about, showAbout] = useState(true)
     const [portfolio, showPortfolio] = useState(false)
