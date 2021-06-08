@@ -1,0 +1,95 @@
+#contact-area .square {
+    width: 50vw;
+    height: 60vh;
+    top: 55%;
+    padding: 1rem 2rem 2rem;
+}
+
+#contact-form {
+    display: grid;
+    grid-template-rows: 1fr 1fr 3fr 1fr 2fr;
+    height: 50vh;
+    justify-content: center;
+    text-align: left;
+}
+
+input#name, input#email {
+    font-family: "Lato", "Gill Sans", sans-serif;
+}
+
+input#name, input#email, textarea {
+    background-color: rgb(255,255,255,.4);
+    border: none;
+    width: 19rem;
+    padding: 10px;
+    font-size: 1.1rem;
+}
+
+#name {
+    grid-row: 1;
+}
+
+#email {
+    grid-row: 2;
+}
+
+textarea {
+    font-size: 1rem;
+    resize: none;
+    padding: 10px;
+    grid-row: 3;
+    min-height: 100px;
+}
+
+.page-text a {
+    font-size: 1.4rem;
+}
+
+.page-text {
+    grid-row: 5;
+}
+
+label {
+    text-align: right;
+}
+
+button[type="submit"] {
+    margin-top: 20px;
+    padding: 10px 15px;
+    background-color: rgb(255,255,255,.4);
+    font-size: 1.1rem;
+    width: 120px;
+    justify-self: center;
+    grid-row: 4;
+}
+
+button[type="submit"]:hover {
+    background-color: rgb(255,255,255,.6);
+}
+
+#thanks {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+@media only screen and (max-width: 600px) {
+    #contact-area .square {
+        width: 100vw;
+        height: 60vh;
+        top: 55%;
+        padding: 1rem 2rem 2rem;
+    }
+
+    .page-text {
+        line-height: 1.5;
+        font-size: 1.2rem;
+        margin-top: 2rem;
+    }
+
+    textarea {
+        height: 6rem;
+    }
+}

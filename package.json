@@ -4,6 +4,7 @@
   "homepage": "https://morganpstanley.github.io/morganpstanley.github.io",
   "private": true,
   "dependencies": {
+    "@formspree/react": "^2.2.3",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
@@ -12,7 +13,7 @@
     "react-dom": "^16.13.1",
     "react-responsive-carousel": "^3.2.10",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "^3.4.3",
+    "react-scripts": "^4.0.3",
     "react-slick": "^0.27.12",
     "react-split-pane": "^0.1.92"
   },
@@ -38,5 +39,26 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "forms": {
+    "contact": {
+      "name": "Contact Form",
+      "fields": {
+        "email": {
+          "type": "email",
+          "required": true
+        },
+        "message": {
+          "type": "text",
+          "required": true
+        }
+      },
+      "actions": [
+        {
+          "type": "email",
+          "to": "morganpstanley@gmail.com"
+        }
+      ]
+    }
   }
 }
