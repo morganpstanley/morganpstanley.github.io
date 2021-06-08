@@ -7,7 +7,6 @@ import resume from './assets/software-developer-resume.pdf'
 
 console.log('𝙇𝙞𝙫𝙚 𝙡𝙤𝙣𝙜 𝙖𝙣𝙙 𝙥𝙧𝙤𝙨𝙥𝙚𝙧. 🖖', 'Thanks for visiting.')
 
-
 const App = () => {
 
     const [about, showAbout] = useState(true)

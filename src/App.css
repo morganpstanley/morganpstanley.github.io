@@ -1,7 +1,7 @@
 .App {
   background-image: url('./assets/cropped.jpg');
   height: 100vh;
-  border: 10px solid white;
+  border: 6px solid white;
   border-bottom: none;
 }
 

@@ -13,7 +13,7 @@
     "react-dom": "^16.13.1",
     "react-responsive-carousel": "^3.2.10",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "^3.4.3",
+    "react-scripts": "^4.0.3",
     "react-slick": "^0.27.12",
     "react-split-pane": "^0.1.92"
   },
@@ -44,11 +44,20 @@
     "contact": {
       "name": "Contact Form",
       "fields": {
-        "email": { "type": "email", "required": true },
-        "message": { "type": "text", "required": true }
+        "email": {
+          "type": "email",
+          "required": true
+        },
+        "message": {
+          "type": "text",
+          "required": true
+        }
       },
       "actions": [
-        { "type": "email", "to": "morganpstanley@gmail.com" }
+        {
+          "type": "email",
+          "to": "morganpstanley@gmail.com"
+        }
       ]
     }
   }
