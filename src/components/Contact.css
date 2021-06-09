@@ -1,7 +1,7 @@
 #contact-area .square {
     width: 50vw;
-    height: 60vh;
-    top: 55%;
+    height: 30rem;
+    top: 25rem;
     padding: 1rem 2rem 2rem;
 }
 
@@ -43,10 +43,12 @@ textarea {
 
 .page-text a {
     font-size: 1.4rem;
+    margin-left: 8px;
 }
 
-.page-text {
+#contact-area .page-text {
     grid-row: 5;
+    margin-top: 0rem;
 }
 
 label {

@@ -71,14 +71,6 @@ function ContactForm() {
             <button type="submit" id="submit"  className="font-playfair" disabled={state.submitting}>
                 Submit
             </button>
-
-            <br />
-
-            <p className="page-text">
-                Or feel free to email me at 
-                <br />
-                <a href="mailto:morganpstanley@gmail.com" className="font-playfair">morganpstanley@gmail.com</a>
-            </p>
         </form>
     );
 }
