@@ -2,36 +2,33 @@ import React, { useState } from 'react'
 import './App.css'
 import Contact from "./components/Contact.js"
 import Portfolio from './components/Portfolio'
+import Home from './components/Home'
+import About from './components/About'
 import sig from './assets/website-signature.png'
-import resume from './assets/software-developer-resume.pdf'
+import resume from './assets/morgan-stanley-software-developer-resume.pdf'
 
 console.log('𝙇𝙞𝙫𝙚 𝙡𝙤𝙣𝙜 𝙖𝙣𝙙 𝙥𝙧𝙤𝙨𝙥𝙚𝙧. 🖖', 'Thanks for visiting.')
 
 const App = () => {
 
-    const [about, showAbout] = useState(true)
+    const [home, showHome] = useState(true)
+    const [about, showAbout] = useState(false)
     const [portfolio, showPortfolio] = useState(false)
     const [contact, showContact] = useState(false)
     const [mobile, showMobile] = useState(false)
 
     const handleToggle = (e) => {
         let target = e.target.id
-        if (target === 'about') {
-            showAbout(true)
-            showPortfolio(false)
-            showContact(false)
-        } else if (target === 'portfolio') {
-            showAbout(false)
-            showPortfolio(true)
-            showContact(false)
-        } else if (target === 'contact') {
-            showAbout(false)
-            showPortfolio(false)
-            showContact(true)
-        }
-        if (mobile) {
-            toggleMenu()
-        }
+        console.log(target)
+        showHome(false)
+        showAbout(false)
+        showPortfolio(false)
+        showContact(false)
+        if (target === 'home') showHome(true)
+        if (target === 'about') showAbout(true)
+        if (target === 'portfolio') showPortfolio(true)
+        if (target === 'contact') showContact(true)
+        if (mobile) toggleMenu()
     }
 
     const toggleMenu = () => {
@@ -41,25 +38,23 @@ const App = () => {
     return (
         <div className="App">
             <div id="header">
-                <img src={sig} id="signature" className={mobile ? "inverted" : null} alt="Morgan Stanley" />
-                <button id="hamburger-icon" className={mobile ? "showClose" : null} onClick={toggleMenu}></button>
+                <button id="signature" onClick={handleToggle}>
+                    <img src={sig} id="home" className={mobile ? "inverted" : ''} alt="Morgan Stanley"/>
+                </button>
+                <button id="hamburger-icon" className={mobile ? "showClose" : ''} onClick={toggleMenu}></button>
                 <nav className={`navbar ${mobile ? "showNav" : null}`}>
-                    <button id="about" className="link font-playfair" onClick={handleToggle}>About</button>
-                    <button id="portfolio" className="link font-playfair" onClick={handleToggle}>Portfolio</button>
-                    <button id="contact" className="link font-playfair" onClick={handleToggle}>Contact</button>
+                    <button id="about" className={`link font-playfair ${about ? 'active' : ''}`} onClick={handleToggle}>About</button>
+                    <button id="portfolio"className={`link font-playfair ${portfolio ? 'active' : ''}`} onClick={handleToggle}>Portfolio</button>
+                    <button id="contact" className={`link font-playfair ${contact ? 'active' : ''}`} onClick={handleToggle}>Contact</button>
                     <a className="link font-playfair" href="https://medium.com/@morganpstanley">Blog⤤</a>
                     <a className="link font-playfair" href={resume} target="_blank" rel="noopener noreferrer">Resume⤤</a>
                 </nav>
             </div>
-            <div className={`page ${about && !mobile ? null : "hidden"}`} id="about">
-                <div className="square">
-                    <h1 className="page-header font-playfair" >Welcome.</h1>
-                    <p className="page-text">
-                        <span>My name is Morgan Stanley. </span> 
-                        <br />
-                        <span>I'm a software developer.</span>
-                    </p>
-                </div>
+            <div className={`page ${about && !mobile ? null : "hidden"}`} id="about-area">
+                <About />
+            </div>
+            <div className={`page ${home && !mobile ? null : "hidden"}`} id="home-area">
+                <Home />
             </div>
             <div className={`page ${contact && !mobile ? null : "hidden"}`} id="contact-area">
                 <Contact />
