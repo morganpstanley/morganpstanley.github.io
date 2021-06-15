@@ -77,21 +77,8 @@ button[type="submit"]:hover {
     transform: translate(-50%, -50%);
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
     #contact-area .square {
         width: 100vw;
-        height: 60vh;
-        top: 55%;
-        padding: 1rem 2rem 2rem;
-    }
-
-    .page-text {
-        line-height: 1.5;
-        font-size: 1.2rem;
-        margin-top: 2rem;
-    }
-
-    textarea {
-        height: 6rem;
     }
 }

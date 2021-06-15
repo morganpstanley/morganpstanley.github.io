@@ -37,9 +37,9 @@ const Portfolio = () => {
             <div id="portfolio-body">
             <p id="project-title" className="font-playfair">Project</p>
                 <div id="project-names">
-                    <button className="project-name" id="chess_battery" onClick={handleToggle}>chess_battery</button>
-                    <button className="project-name" id="stocker" onClick={handleToggle}>stocker</button>
-                    <button className="project-name" id="pro_build" onClick={handleToggle}>pro_build</button>                        
+                    <button className={`project-name ${chessBattery ? "active" : ""}`} id="chess_battery" onClick={handleToggle}>chess_battery</button>
+                    <button className={`project-name ${stocker ? "active" : ""}`} id="stocker" onClick={handleToggle}>stocker</button>
+                    <button className={`project-name ${proBuild ? "active" : ""}`} id="pro_build" onClick={handleToggle}>pro_build</button>                        
                 </div>
                 <Project project={currentProject()} />
             </div>
