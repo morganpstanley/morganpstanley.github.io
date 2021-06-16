@@ -1,11 +1,11 @@
 import React, { useState } from 'react'
 import './App.css'
-import Contact from "./components/Contact.js"
-import Portfolio from './components/Portfolio'
-import Home from './components/Home'
-import About from './components/About'
-import sig from './assets/website-signature.png'
-import resume from './assets/morgan-stanley-software-developer-resume.pdf'
+import Contact from "./Contact.js"
+import Portfolio from './Portfolio'
+import Home from './Home'
+import About from './About'
+import sig from '../assets/website-signature.png'
+import resume from '../assets/morgan-stanley-software-developer-resume.pdf'
 
 console.log('𝙇𝙞𝙫𝙚 𝙡𝙤𝙣𝙜 𝙖𝙣𝙙 𝙥𝙧𝙤𝙨𝙥𝙚𝙧. 🖖', 'Thanks for visiting.')
 
