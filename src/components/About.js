@@ -1,15 +1,17 @@
 import React from 'react'
 
-const About = () => {
+const Home = () => {
 
     return (
-        <div className="hello">
-            <h1 className="page-header font-playfair" >About Me.</h1>
+        <div className="square">
+            <h1 className="page-header font-playfair" >Welcome.</h1>
             <p className="page-text">
-                helo
+                <span>My name is Morgan Stanley. </span> 
+                <br />
+                <span>I'm a software developer.</span>
             </p>
         </div>
     )
 }
 
-export default About
+export default Home

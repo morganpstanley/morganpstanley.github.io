@@ -18,20 +18,12 @@
     width: 100vw;
 }
 
-#home {
-  width: 100px;
-  z-index: 1000;
-  margin: 10px 30px;
-}
-
 #signature {
     position: relative;
     float: left;
-}
-
-#signature:hover {
-    background: none;
-    filter: invert(1);
+    width: 100px;
+    z-index: 1000;
+    margin: 10px 30px;
 }
 
 #header {
