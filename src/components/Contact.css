@@ -1,7 +1,7 @@
 #contact-area .square {
     width: 50vw;
-    height: 30rem;
-    top: 25rem;
+    height: 27rem;
+    top: 23rem;
     padding: 1rem 2rem 2rem;
 }
 
@@ -11,6 +11,14 @@
     height: 50vh;
     justify-content: center;
     text-align: left;
+}
+
+#contact-area h1 {
+    margin: 5px;
+}
+
+#contact-area .page-text {
+    margin-top: 1rem;
 }
 
 input#name, input#email {
@@ -42,13 +50,13 @@ textarea {
 }
 
 .page-text a {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     margin-left: 8px;
 }
 
 #contact-area .page-text {
     grid-row: 5;
-    margin-top: 0rem;
+    font-size: 1rem;
 }
 
 label {
