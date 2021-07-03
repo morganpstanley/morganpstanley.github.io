@@ -117,10 +117,6 @@
   background-color: rgba(0,0,0,0.2);
 }
 
-#project-names .active::after {
-    content: '#';
-}
-
 #portfolio-area {
     background-color: rgb(0,0,0,.2);
     top: 15vh;
