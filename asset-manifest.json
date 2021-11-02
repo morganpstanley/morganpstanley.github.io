@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/morganpstanley.github.io/static/css/main.49fb375a.chunk.css",
-    "main.js": "/morganpstanley.github.io/static/js/main.827349b6.chunk.js",
-    "main.js.map": "/morganpstanley.github.io/static/js/main.827349b6.chunk.js.map",
+    "main.css": "/morganpstanley.github.io/static/css/main.64967b55.chunk.css",
+    "main.js": "/morganpstanley.github.io/static/js/main.2b0dc2b9.chunk.js",
+    "main.js.map": "/morganpstanley.github.io/static/js/main.2b0dc2b9.chunk.js.map",
     "runtime-main.js": "/morganpstanley.github.io/static/js/runtime-main.3c41e848.js",
     "runtime-main.js.map": "/morganpstanley.github.io/static/js/runtime-main.3c41e848.js.map",
     "static/js/2.29d23ad3.chunk.js": "/morganpstanley.github.io/static/js/2.29d23ad3.chunk.js",
     "static/js/2.29d23ad3.chunk.js.map": "/morganpstanley.github.io/static/js/2.29d23ad3.chunk.js.map",
     "index.html": "/morganpstanley.github.io/index.html",
-    "static/css/main.49fb375a.chunk.css.map": "/morganpstanley.github.io/static/css/main.49fb375a.chunk.css.map",
+    "static/css/main.64967b55.chunk.css.map": "/morganpstanley.github.io/static/css/main.64967b55.chunk.css.map",
     "static/js/2.29d23ad3.chunk.js.LICENSE.txt": "/morganpstanley.github.io/static/js/2.29d23ad3.chunk.js.LICENSE.txt",
     "static/media/index.css": "/morganpstanley.github.io/static/media/PlayfairDisplay-Italic-VariableFont_wght.54d4b837.ttf",
+    "static/media/chessbattery-1.d0f1cab3.png": "/morganpstanley.github.io/static/media/chessbattery-1.d0f1cab3.png",
+    "static/media/chessbattery-2.cfcf0040.png": "/morganpstanley.github.io/static/media/chessbattery-2.cfcf0040.png",
+    "static/media/chessbattery-3.a784b3b1.png": "/morganpstanley.github.io/static/media/chessbattery-3.a784b3b1.png",
     "static/media/App.css": "/morganpstanley.github.io/static/media/cropped.efe6ee4d.jpg",
     "static/media/github-logo-icon.987334e9.png": "/morganpstanley.github.io/static/media/github-logo-icon.987334e9.png",
     "static/media/prolift-1.f4905523.png": "/morganpstanley.github.io/static/media/prolift-1.f4905523.png",
     "static/media/prolift-2.d94442b7.png": "/morganpstanley.github.io/static/media/prolift-2.d94442b7.png",
     "static/media/prolift-3.474db527.png": "/morganpstanley.github.io/static/media/prolift-3.474db527.png",
-    "static/media/small-chessbattery-1.8bb5fdc6.png": "/morganpstanley.github.io/static/media/small-chessbattery-1.8bb5fdc6.png",
-    "static/media/small-chessbattery-2.83bd5580.png": "/morganpstanley.github.io/static/media/small-chessbattery-2.83bd5580.png",
-    "static/media/small-chessbattery-3.9415eb7a.png": "/morganpstanley.github.io/static/media/small-chessbattery-3.9415eb7a.png",
     "static/media/stocker-home.aab8a265.png": "/morganpstanley.github.io/static/media/stocker-home.aab8a265.png",
     "static/media/stocker-signin.03163898.png": "/morganpstanley.github.io/static/media/stocker-signin.03163898.png",
     "static/media/stocker-signup.a2be011a.png": "/morganpstanley.github.io/static/media/stocker-signup.a2be011a.png",
@@ -27,7 +27,7 @@
   "entrypoints": [
     "static/js/runtime-main.3c41e848.js",
     "static/js/2.29d23ad3.chunk.js",
-    "static/css/main.49fb375a.chunk.css",
-    "static/js/main.827349b6.chunk.js"
+    "static/css/main.64967b55.chunk.css",
+    "static/js/main.2b0dc2b9.chunk.js"
   ]
 }
