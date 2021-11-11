@@ -1,6 +1,6 @@
-import image1 from '../assets/chessbattery-1.png'
-import image2 from '../assets/chessbattery-2.png'
-import image3 from '../assets/chessbattery-3.png'
+import image1 from '../assets/chessbattery-1.webp'
+import image2 from '../assets/chessbattery-2.webp'
+import image3 from '../assets/chessbattery-3.webp'
 
 const PROJECT_NAME = 'Chess Battery';
 
