@@ -1,33 +1,33 @@
 {
   "files": {
-    "main.css": "/morganpstanley.github.io/static/css/main.225633eb.chunk.css",
-    "main.js": "/morganpstanley.github.io/static/js/main.f7e6e07d.chunk.js",
-    "main.js.map": "/morganpstanley.github.io/static/js/main.f7e6e07d.chunk.js.map",
+    "main.css": "/morganpstanley.github.io/static/css/main.afea96c6.chunk.css",
+    "main.js": "/morganpstanley.github.io/static/js/main.f2747fec.chunk.js",
+    "main.js.map": "/morganpstanley.github.io/static/js/main.f2747fec.chunk.js.map",
     "runtime-main.js": "/morganpstanley.github.io/static/js/runtime-main.3c41e848.js",
     "runtime-main.js.map": "/morganpstanley.github.io/static/js/runtime-main.3c41e848.js.map",
     "static/js/2.29d23ad3.chunk.js": "/morganpstanley.github.io/static/js/2.29d23ad3.chunk.js",
     "static/js/2.29d23ad3.chunk.js.map": "/morganpstanley.github.io/static/js/2.29d23ad3.chunk.js.map",
     "index.html": "/morganpstanley.github.io/index.html",
-    "static/css/main.225633eb.chunk.css.map": "/morganpstanley.github.io/static/css/main.225633eb.chunk.css.map",
+    "static/css/main.afea96c6.chunk.css.map": "/morganpstanley.github.io/static/css/main.afea96c6.chunk.css.map",
     "static/js/2.29d23ad3.chunk.js.LICENSE.txt": "/morganpstanley.github.io/static/js/2.29d23ad3.chunk.js.LICENSE.txt",
     "static/media/index.css": "/morganpstanley.github.io/static/media/PlayfairDisplay-Italic-VariableFont_wght.54d4b837.ttf",
     "static/media/chessbattery-1.3267b4bf.webp": "/morganpstanley.github.io/static/media/chessbattery-1.3267b4bf.webp",
     "static/media/chessbattery-2.1ef55e5c.webp": "/morganpstanley.github.io/static/media/chessbattery-2.1ef55e5c.webp",
     "static/media/chessbattery-3.24adad90.webp": "/morganpstanley.github.io/static/media/chessbattery-3.24adad90.webp",
-    "static/media/App.css": "/morganpstanley.github.io/static/media/cropped.85eff2cc.webp",
-    "static/media/github-logo-icon.987334e9.png": "/morganpstanley.github.io/static/media/github-logo-icon.987334e9.png",
-    "static/media/prolift-1.f4905523.png": "/morganpstanley.github.io/static/media/prolift-1.f4905523.png",
-    "static/media/prolift-2.d94442b7.png": "/morganpstanley.github.io/static/media/prolift-2.d94442b7.png",
-    "static/media/prolift-3.474db527.png": "/morganpstanley.github.io/static/media/prolift-3.474db527.png",
+    "static/media/App.css": "/morganpstanley.github.io/static/media/menu-icon.be624ca5.webp",
+    "static/media/github-logo-icon.f91903ea.webp": "/morganpstanley.github.io/static/media/github-logo-icon.f91903ea.webp",
+    "static/media/prolift-1.40386eb3.webp": "/morganpstanley.github.io/static/media/prolift-1.40386eb3.webp",
+    "static/media/prolift-2.4baa0bc4.webp": "/morganpstanley.github.io/static/media/prolift-2.4baa0bc4.webp",
+    "static/media/prolift-3.94044e43.webp": "/morganpstanley.github.io/static/media/prolift-3.94044e43.webp",
     "static/media/stocker-home.aab8a265.png": "/morganpstanley.github.io/static/media/stocker-home.aab8a265.png",
     "static/media/stocker-signin.03163898.png": "/morganpstanley.github.io/static/media/stocker-signin.03163898.png",
     "static/media/stocker-signup.a2be011a.png": "/morganpstanley.github.io/static/media/stocker-signup.a2be011a.png",
-    "static/media/website-signature.2a041d75.png": "/morganpstanley.github.io/static/media/website-signature.2a041d75.png"
+    "static/media/website-signature.68b6509c.webp": "/morganpstanley.github.io/static/media/website-signature.68b6509c.webp"
   },
   "entrypoints": [
     "static/js/runtime-main.3c41e848.js",
     "static/js/2.29d23ad3.chunk.js",
-    "static/css/main.225633eb.chunk.css",
-    "static/js/main.f7e6e07d.chunk.js"
+    "static/css/main.afea96c6.chunk.css",
+    "static/js/main.f2747fec.chunk.js"
   ]
 }
