@@ -3,7 +3,7 @@ import './App.css'
 import Contact from "./Contact.js"
 import Portfolio from './Portfolio'
 import About from './About'
-import sig from '../assets/website-signature.png'
+import sig from '../assets/website-signature.webp'
 const RESUME = "https://docs.google.com/document/d/e/2PACX-1vRz0REkDGRXf_f5P_VgXC_jD8hGxeFZWm10WVxKCrY_C0qh7iZbQhim0cIslSFvV3mfAzqrGdsq2ZET/pub"
 
 console.log('𝙇𝙞𝙫𝙚 𝙡𝙤𝙣𝙜 𝙖𝙣𝙙 𝙥𝙧𝙤𝙨𝙥𝙚𝙧. 🖖', 'Thanks for visiting.')

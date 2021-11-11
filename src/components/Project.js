@@ -1,6 +1,6 @@
 import React from 'react'
 import { Carousel } from "react-responsive-carousel";
-import githubLogo from '../assets/github-logo-icon.png'
+import githubLogo from '../assets/github-logo-icon.webp'
 
 import "./Carousel.css"
 
