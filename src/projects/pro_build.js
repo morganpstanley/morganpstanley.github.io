@@ -1,6 +1,6 @@
-import prolift1 from '../assets/prolift-1.png'
-import prolift2 from '../assets/prolift-2.png'
-import prolift3 from '../assets/prolift-3.png'
+import prolift1 from '../assets/prolift-1.webp'
+import prolift2 from '../assets/prolift-2.webp'
+import prolift3 from '../assets/prolift-3.webp'
 
 const PROJECT_NAME = 'Pro Build';
 
