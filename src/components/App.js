@@ -17,7 +17,6 @@ const App = () => {
 
     const handleToggle = (e) => {
         let target = e.target.id
-        console.log(target)
         showAbout(false)
         showPortfolio(false)
         showContact(false)
