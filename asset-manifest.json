@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/morganpstanley.github.io/static/css/main.044f19ca.chunk.css",
-    "main.js": "/morganpstanley.github.io/static/js/main.00009cbd.chunk.js",
-    "main.js.map": "/morganpstanley.github.io/static/js/main.00009cbd.chunk.js.map",
+    "main.js": "/morganpstanley.github.io/static/js/main.a31b02f0.chunk.js",
+    "main.js.map": "/morganpstanley.github.io/static/js/main.a31b02f0.chunk.js.map",
     "runtime-main.js": "/morganpstanley.github.io/static/js/runtime-main.7fc8f5fc.js",
     "runtime-main.js.map": "/morganpstanley.github.io/static/js/runtime-main.7fc8f5fc.js.map",
     "static/js/2.6e062a00.chunk.js": "/morganpstanley.github.io/static/js/2.6e062a00.chunk.js",
@@ -28,6 +28,6 @@
     "static/js/runtime-main.7fc8f5fc.js",
     "static/js/2.6e062a00.chunk.js",
     "static/css/main.044f19ca.chunk.css",
-    "static/js/main.00009cbd.chunk.js"
+    "static/js/main.a31b02f0.chunk.js"
   ]
 }
