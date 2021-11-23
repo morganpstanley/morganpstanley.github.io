@@ -1,18 +1,21 @@
 {
   "files": {
-    "main.css": "/morganpstanley.github.io/static/css/main.4e6b77d6.chunk.css",
-    "main.js": "/morganpstanley.github.io/static/js/main.ab6681a3.chunk.js",
-    "main.js.map": "/morganpstanley.github.io/static/js/main.ab6681a3.chunk.js.map",
+    "main.css": "/morganpstanley.github.io/static/css/main.044f19ca.chunk.css",
+    "main.js": "/morganpstanley.github.io/static/js/main.72614349.chunk.js",
+    "main.js.map": "/morganpstanley.github.io/static/js/main.72614349.chunk.js.map",
     "runtime-main.js": "/morganpstanley.github.io/static/js/runtime-main.7fc8f5fc.js",
     "runtime-main.js.map": "/morganpstanley.github.io/static/js/runtime-main.7fc8f5fc.js.map",
     "static/js/2.6e062a00.chunk.js": "/morganpstanley.github.io/static/js/2.6e062a00.chunk.js",
     "static/js/2.6e062a00.chunk.js.map": "/morganpstanley.github.io/static/js/2.6e062a00.chunk.js.map",
     "index.html": "/morganpstanley.github.io/index.html",
-    "static/css/main.4e6b77d6.chunk.css.map": "/morganpstanley.github.io/static/css/main.4e6b77d6.chunk.css.map",
+    "static/css/main.044f19ca.chunk.css.map": "/morganpstanley.github.io/static/css/main.044f19ca.chunk.css.map",
     "static/js/2.6e062a00.chunk.js.LICENSE.txt": "/morganpstanley.github.io/static/js/2.6e062a00.chunk.js.LICENSE.txt",
     "static/media/index.css": "/morganpstanley.github.io/static/media/PlayfairDisplay-Italic-VariableFont_wght.54d4b837.ttf",
-    "static/media/github-logo-icon.f91903ea.webp": "/morganpstanley.github.io/static/media/github-logo-icon.f91903ea.webp",
+    "static/media/chessbattery-1.3267b4bf.webp": "/morganpstanley.github.io/static/media/chessbattery-1.3267b4bf.webp",
+    "static/media/chessbattery-2.1ef55e5c.webp": "/morganpstanley.github.io/static/media/chessbattery-2.1ef55e5c.webp",
+    "static/media/chessbattery-3.24adad90.webp": "/morganpstanley.github.io/static/media/chessbattery-3.24adad90.webp",
     "static/media/App.css": "/morganpstanley.github.io/static/media/menu-icon.be624ca5.webp",
+    "static/media/github-logo-icon.f91903ea.webp": "/morganpstanley.github.io/static/media/github-logo-icon.f91903ea.webp",
     "static/media/prolift-1.40386eb3.webp": "/morganpstanley.github.io/static/media/prolift-1.40386eb3.webp",
     "static/media/prolift-2.4baa0bc4.webp": "/morganpstanley.github.io/static/media/prolift-2.4baa0bc4.webp",
     "static/media/prolift-3.94044e43.webp": "/morganpstanley.github.io/static/media/prolift-3.94044e43.webp",
@@ -24,7 +27,7 @@
   "entrypoints": [
     "static/js/runtime-main.7fc8f5fc.js",
     "static/js/2.6e062a00.chunk.js",
-    "static/css/main.4e6b77d6.chunk.css",
-    "static/js/main.ab6681a3.chunk.js"
+    "static/css/main.044f19ca.chunk.css",
+    "static/js/main.72614349.chunk.js"
   ]
 }
