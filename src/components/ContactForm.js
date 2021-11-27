@@ -1,15 +1,14 @@
-import React from "react";
 import { useForm, ValidationError } from '@formspree/react';
 
 
 const ContactForm = () => {
     const [state, handleSubmit] = useForm("xknpzqqj");
     if (state.succeeded) {
-        return <p id="thanks" className="font-playfair">Thank you. I'll get back to you as soon as I can.</p>;
+        return <p id="thank-you-message" className="font-playfair">Thank you. I'll get back to you as soon as I can.</p>;
     }
     return (
         <form id="contact-form" onSubmit={handleSubmit}>
-            <div className="form--input">
+            <div className="form--input" id="form--name">
                 <label htmlFor="name" className="font-playfair"> 
                     Name
                 </label>
@@ -20,7 +19,7 @@ const ContactForm = () => {
                     id="name"
                     type="name"
                     name="name"
-                    required="required"
+                    required
                 />
                 <ValidationError
                     prefix="Name"
@@ -29,7 +28,7 @@ const ContactForm = () => {
                 />
             </div>
 
-            <div className="form--input">
+            <div className="form--input" id="form--email">
                 <label htmlFor="email" className="font-playfair" > 
                     Email
                 </label>
@@ -40,7 +39,7 @@ const ContactForm = () => {
                     id="email"
                     type="email"
                     name="email"
-                    required="required"
+                    required
                 />
                 <ValidationError
                     prefix="Email"
@@ -49,8 +48,8 @@ const ContactForm = () => {
                 />
             </div>
 
-            <div className="form--input">
-            <label htmlFor="message"  className="font-playfair"> 
+            <div className="form--input" id="form--message">
+                <label htmlFor="message"  className="font-playfair"> 
                     Message
                 </label>
 
@@ -59,7 +58,7 @@ const ContactForm = () => {
                 <textarea
                     id="message"
                     name="message"
-                    required="required"
+                    required
                 />
                 <ValidationError
                     prefix="Message"
@@ -68,9 +67,14 @@ const ContactForm = () => {
                 />
             </div>
 
-            <button type="submit" id="submit"  className="font-playfair" disabled={state.submitting}>
+            <button type="submit" className="font-playfair" id="form--submit" disabled={state.submitting}>
                 Submit
             </button>
+
+            <p className="page-text" id="contact--info">
+                Or feel free to email me at 
+                <a href="mailto:morganpstanley@gmail.com" className="font-playfair">morganpstanley@gmail.com</a>
+            </p>
         </form>
     );
 }
