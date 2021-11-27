@@ -1,6 +1,6 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import './App.css'
-import Contact from "./Contact.js"
+import Contact from "./Contact"
 import Portfolio from './Portfolio'
 import About from './About'
 import sig from '../assets/website-signature.webp'
