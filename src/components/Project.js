@@ -34,6 +34,7 @@ const Project = ({project}) => {
 
     const showImages = PROJECT_IMAGES.map((image, i) => 
         <img 
+            loading="lazy"
             key={i} 
             src={image} 
             alt="Portfolio Project" 
