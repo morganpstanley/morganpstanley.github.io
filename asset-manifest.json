@@ -1,28 +1,15 @@
 {
   "files": {
-    "main.css": "/morganpstanley.github.io/static/css/main.7dcb2f5a.chunk.css",
-    "main.js": "/morganpstanley.github.io/static/js/main.00af2890.chunk.js",
-    "main.js.map": "/morganpstanley.github.io/static/js/main.00af2890.chunk.js.map",
-    "runtime-main.js": "/morganpstanley.github.io/static/js/runtime-main.1387a69e.js",
-    "runtime-main.js.map": "/morganpstanley.github.io/static/js/runtime-main.1387a69e.js.map",
-    "static/js/2.8bbfcdf5.chunk.js": "/morganpstanley.github.io/static/js/2.8bbfcdf5.chunk.js",
-    "static/js/2.8bbfcdf5.chunk.js.map": "/morganpstanley.github.io/static/js/2.8bbfcdf5.chunk.js.map",
-    "static/js/3.d5634d08.chunk.js": "/morganpstanley.github.io/static/js/3.d5634d08.chunk.js",
-    "static/js/3.d5634d08.chunk.js.map": "/morganpstanley.github.io/static/js/3.d5634d08.chunk.js.map",
-    "static/js/4.433c44f7.chunk.js": "/morganpstanley.github.io/static/js/4.433c44f7.chunk.js",
-    "static/js/4.433c44f7.chunk.js.map": "/morganpstanley.github.io/static/js/4.433c44f7.chunk.js.map",
-    "static/css/5.751a269d.chunk.css": "/morganpstanley.github.io/static/css/5.751a269d.chunk.css",
-    "static/js/5.a733d837.chunk.js": "/morganpstanley.github.io/static/js/5.a733d837.chunk.js",
-    "static/js/5.a733d837.chunk.js.map": "/morganpstanley.github.io/static/js/5.a733d837.chunk.js.map",
-    "static/css/6.18609c5f.chunk.css": "/morganpstanley.github.io/static/css/6.18609c5f.chunk.css",
-    "static/js/6.6983d56e.chunk.js": "/morganpstanley.github.io/static/js/6.6983d56e.chunk.js",
-    "static/js/6.6983d56e.chunk.js.map": "/morganpstanley.github.io/static/js/6.6983d56e.chunk.js.map",
+    "main.css": "/morganpstanley.github.io/static/css/main.539ac512.chunk.css",
+    "main.js": "/morganpstanley.github.io/static/js/main.7257bfb3.chunk.js",
+    "main.js.map": "/morganpstanley.github.io/static/js/main.7257bfb3.chunk.js.map",
+    "runtime-main.js": "/morganpstanley.github.io/static/js/runtime-main.7fc8f5fc.js",
+    "runtime-main.js.map": "/morganpstanley.github.io/static/js/runtime-main.7fc8f5fc.js.map",
+    "static/js/2.2e888435.chunk.js": "/morganpstanley.github.io/static/js/2.2e888435.chunk.js",
+    "static/js/2.2e888435.chunk.js.map": "/morganpstanley.github.io/static/js/2.2e888435.chunk.js.map",
     "index.html": "/morganpstanley.github.io/index.html",
-    "static/css/5.751a269d.chunk.css.map": "/morganpstanley.github.io/static/css/5.751a269d.chunk.css.map",
-    "static/css/6.18609c5f.chunk.css.map": "/morganpstanley.github.io/static/css/6.18609c5f.chunk.css.map",
-    "static/css/main.7dcb2f5a.chunk.css.map": "/morganpstanley.github.io/static/css/main.7dcb2f5a.chunk.css.map",
-    "static/js/2.8bbfcdf5.chunk.js.LICENSE.txt": "/morganpstanley.github.io/static/js/2.8bbfcdf5.chunk.js.LICENSE.txt",
-    "static/js/3.d5634d08.chunk.js.LICENSE.txt": "/morganpstanley.github.io/static/js/3.d5634d08.chunk.js.LICENSE.txt",
+    "static/css/main.539ac512.chunk.css.map": "/morganpstanley.github.io/static/css/main.539ac512.chunk.css.map",
+    "static/js/2.2e888435.chunk.js.LICENSE.txt": "/morganpstanley.github.io/static/js/2.2e888435.chunk.js.LICENSE.txt",
     "static/media/index.css": "/morganpstanley.github.io/static/media/PlayfairDisplay-Italic-VariableFont_wght.54d4b837.ttf",
     "static/media/chessbattery-1.3267b4bf.webp": "/morganpstanley.github.io/static/media/chessbattery-1.3267b4bf.webp",
     "static/media/chessbattery-2.1ef55e5c.webp": "/morganpstanley.github.io/static/media/chessbattery-2.1ef55e5c.webp",
@@ -38,9 +25,9 @@
     "static/media/website-signature.68b6509c.webp": "/morganpstanley.github.io/static/media/website-signature.68b6509c.webp"
   },
   "entrypoints": [
-    "static/js/runtime-main.1387a69e.js",
-    "static/js/3.d5634d08.chunk.js",
-    "static/css/main.7dcb2f5a.chunk.css",
-    "static/js/main.00af2890.chunk.js"
+    "static/js/runtime-main.7fc8f5fc.js",
+    "static/js/2.2e888435.chunk.js",
+    "static/css/main.539ac512.chunk.css",
+    "static/js/main.7257bfb3.chunk.js"
   ]
 }
