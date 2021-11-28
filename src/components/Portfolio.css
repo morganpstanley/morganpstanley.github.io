@@ -124,12 +124,13 @@
     height: 100vh;
     width: 100vw;
     transition: .6s;
+    display: block;
 }
 
 #portfolio-area.hidden {
     transform: translateY(100vh);
     transition: 1s;
-    display: block;
+    visibility: hidden;
 }
 
 .bullets {
