@@ -35,10 +35,10 @@
     display: inline-block;
 }
 
-#description-title {
+/* #description-title {
     grid-area: description-title;
     font-size: 1.3rem;
-}
+} */
 
 #project-names {
     border-right-color: var(--transparent-1);
@@ -49,15 +49,7 @@
     grid-template-rows: repeat(15, 1fr);
 }
 
-#project-name-stocker {
-    grid-row: 1
-}
-
-#project-name-pro_build {
-    grid-row: 2
-}
-
-#portfolio-area .page-header, .description, .project-name, #description-title, .portfolio-item p {
+#portfolio-area .page-header, .description, .project-name, .portfolio-item p {
     color: white;
 }
 

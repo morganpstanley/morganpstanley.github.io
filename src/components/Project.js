@@ -50,9 +50,11 @@ const Project = ({project}) => {
     return(
         <React.Fragment>
             <div key={PROJECT_NAME} id="project-description">
-            {showProjectName(PROJECT_NAME, PROJECT_LINK)}
-            <a href={GITHUB_LINK}><img id="github-logo" src={githubLogo} alt="Github Link"></img></a>
-            <p className="description">{PROJECT_LANGUAGES}</p>
+                {showProjectName(PROJECT_NAME, PROJECT_LINK)}
+                <a href={GITHUB_LINK}>
+                    <img id="github-logo" src={githubLogo} alt="Github Link"/>
+                </a>
+                <p className="description">{PROJECT_LANGUAGES}</p>
             </div>
             <div className="portfolio-item">
                 <Carousel {...getConfigurableProps()}>
