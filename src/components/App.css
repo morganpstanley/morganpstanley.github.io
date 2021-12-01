@@ -1,9 +1,19 @@
 .App {
-  background-image: url('../assets/cropped.webp');
+background-image: url('../assets/cropped2.webp');
   height: 100vh;
   border: 6px solid white;
   border-bottom: none;
+  background-size: cover;
 }
+
+/*Large Screens*/
+@media screen 
+and (min-width: 1300px) {
+    .App {
+        background-image: url('../assets/cropped.webp');
+    }
+}
+
 
 .page-text {
     line-height: 1.5;
