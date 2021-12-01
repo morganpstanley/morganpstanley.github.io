@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/morganpstanley.github.io/static/css/main.91674533.chunk.css",
+    "main.css": "/morganpstanley.github.io/static/css/main.8e6b50a2.chunk.css",
     "main.js": "/morganpstanley.github.io/static/js/main.b4b00b6c.chunk.js",
     "main.js.map": "/morganpstanley.github.io/static/js/main.b4b00b6c.chunk.js.map",
     "runtime-main.js": "/morganpstanley.github.io/static/js/runtime-main.9dc05b5d.js",
@@ -8,7 +8,7 @@
     "static/js/2.ddb65254.chunk.js": "/morganpstanley.github.io/static/js/2.ddb65254.chunk.js",
     "static/js/2.ddb65254.chunk.js.map": "/morganpstanley.github.io/static/js/2.ddb65254.chunk.js.map",
     "index.html": "/morganpstanley.github.io/index.html",
-    "static/css/main.91674533.chunk.css.map": "/morganpstanley.github.io/static/css/main.91674533.chunk.css.map",
+    "static/css/main.8e6b50a2.chunk.css.map": "/morganpstanley.github.io/static/css/main.8e6b50a2.chunk.css.map",
     "static/js/2.ddb65254.chunk.js.LICENSE.txt": "/morganpstanley.github.io/static/js/2.ddb65254.chunk.js.LICENSE.txt",
     "static/media/index.css": "/morganpstanley.github.io/static/media/PlayfairDisplay-Italic-VariableFont_wght.54d4b837.ttf",
     "static/media/chessbattery-1.3267b4bf.webp": "/morganpstanley.github.io/static/media/chessbattery-1.3267b4bf.webp",
@@ -27,7 +27,7 @@
   "entrypoints": [
     "static/js/runtime-main.9dc05b5d.js",
     "static/js/2.ddb65254.chunk.js",
-    "static/css/main.91674533.chunk.css",
+    "static/css/main.8e6b50a2.chunk.css",
     "static/js/main.b4b00b6c.chunk.js"
   ]
 }
