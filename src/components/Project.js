@@ -52,7 +52,7 @@ const Project = ({project}) => {
             <div key={PROJECT_NAME} id="project-description">
                 {showProjectName(PROJECT_NAME, PROJECT_LINK)}
                 <a href={GITHUB_LINK}>
-                    <img id="github-logo" src={githubLogo} alt="Github Link"/>
+                    <img id="github-logo" src={githubLogo} height="22" width="22" alt="Github Link"/>
                 </a>
                 <p className="description">{PROJECT_LANGUAGES}</p>
             </div>

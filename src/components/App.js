@@ -33,7 +33,7 @@ const App = () => {
     return (
         <div className="App">
             <div id="header">
-                    <img src={sig} id="signature" className={mobile ? "inverted" : ''} alt="Morgan Stanley"/>
+                    <img src={sig} id="signature" width="100" height="100" className={mobile ? "inverted" : ''} alt="Morgan Stanley"/>
                 <button id="hamburger-icon" className={mobile ? "showClose" : ''} aria-label="mobile menu" onClick={toggleMenu}></button>
                 <nav className={`navbar ${mobile ? "showNav" : null}`}>
                     <button id="about" className={`link font-playfair ${about ? 'active' : ''}`} onClick={handleToggle}>About</button>
