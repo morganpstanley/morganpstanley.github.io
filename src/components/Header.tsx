@@ -3,7 +3,16 @@ import "./Header.css"
 
 const RESUME = "https://docs.google.com/document/d/e/2PACX-1vRz0REkDGRXf_f5P_VgXC_jD8hGxeFZWm10WVxKCrY_C0qh7iZbQhim0cIslSFvV3mfAzqrGdsq2ZET/pub"
 
-const Header = ({handleToggle, toggleMenu, mobile, about, portfolio, contact}) => {
+type headerProps = {
+  handleToggle(): void;
+  toggleMenu(): void;
+  mobile: boolean;
+  about: boolean;
+  portfolio: boolean;
+  contact: boolean;
+}
+
+const Header = ({handleToggle, toggleMenu, mobile, about, portfolio, contact}: headerProps) => {
   return(
     <div id="header">
       <img src={signature} id="signature" width="100" height="100" className={mobile ? "inverted" : ''} alt="Morgan Stanley"/>
