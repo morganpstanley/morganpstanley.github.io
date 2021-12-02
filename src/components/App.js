@@ -1,10 +1,9 @@
 import { useState } from 'react'
-import './App.css'
+import Header from "./Header"
 import Contact from "./Contact"
 import Portfolio from './Portfolio'
 import About from './About'
-import signature from '../assets/signature-black.webp'
-const RESUME = "https://docs.google.com/document/d/e/2PACX-1vRz0REkDGRXf_f5P_VgXC_jD8hGxeFZWm10WVxKCrY_C0qh7iZbQhim0cIslSFvV3mfAzqrGdsq2ZET/pub"
+import './App.css'
 
 console.log('𝙇𝙞𝙫𝙚 𝙡𝙤𝙣𝙜 𝙖𝙣𝙙 𝙥𝙧𝙤𝙨𝙥𝙚𝙧. 🖖', 'Thanks for visiting.')
 
@@ -32,17 +31,14 @@ const App = () => {
 
     return (
         <div className="App">
-            <div id="header">
-                    <img src={signature} id="signature" width="100" height="100" className={mobile ? "inverted" : ''} alt="Morgan Stanley"/>
-                <button id="hamburger-icon" className={mobile ? "showClose" : ''} aria-label="mobile menu" onClick={toggleMenu}></button>
-                <nav className={`navbar ${mobile ? "showNav" : null}`}>
-                    <button id="about" className={`link font-playfair ${about ? 'active' : ''}`} onClick={handleToggle}>About</button>
-                    <button id="portfolio"className={`link font-playfair ${portfolio ? 'active' : ''}`} onClick={handleToggle}>Portfolio</button>
-                    <button id="contact" className={`link font-playfair ${contact ? 'active' : ''}`} onClick={handleToggle}>Contact</button>
-                    <a className="link font-playfair" href="https://medium.com/@morganpstanley">Blog⤤</a>
-                    <a className="link font-playfair" href={RESUME} target="_blank" rel="noopener noreferrer">Resume⤤</a>
-                </nav>
-            </div>
+            <Header 
+                toggleMenu={toggleMenu} 
+                handleToggle={handleToggle} 
+                mobile={mobile} 
+                about={about} 
+                portfolio={portfolio} 
+                contact={contact}
+            />
             <div className={`page ${about && !mobile ? null : "hidden"}`} id="about-area">
                 <About />
             </div>
