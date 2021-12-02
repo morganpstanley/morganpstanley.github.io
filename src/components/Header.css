@@ -12,7 +12,7 @@
 }
 
 .link {
-  margin: 2rem .5rem;
+  margin: 2rem 0.5rem;
   font-size: 1rem;
   float: left;
   color: black;
@@ -20,16 +20,18 @@
   padding: 0px 10px;
 }
 
-a, .link {
-  border-bottom: 3px solid rgb(0,0,0,0);
+a,
+.link {
+  border-bottom: 3px solid rgb(0, 0, 0, 0);
 }
 
-a:hover, .link:hover {
-border-bottom: 3px solid rgb(255,255,255,.1);
+a:hover,
+.link:hover {
+  border-bottom: 3px solid rgb(255, 255, 255, 0.1);
 }
 
 .navbar .active {
-  border-bottom: 3px solid rgb(255,255,255,.3) !important;
+  border-bottom: 3px solid rgb(255, 255, 255, 0.3) !important;
 }
 
 .inverted {

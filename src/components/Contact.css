@@ -1,119 +1,122 @@
 #contact-area .square {
-    width: 50vw;
-    height: 27rem;
-    top: 23rem;
-    padding: 1rem 2rem 2rem;
+  width: 50vw;
+  height: 27rem;
+  top: 23rem;
+  padding: 1rem 2rem 2rem;
 }
 
 #contact-form {
-    display: grid;
-    grid-template-rows: 1fr 1fr 3fr 1fr 2fr;
-    grid-template-columns: 1fr 7fr 1fr;
-    grid-template-areas: 
-        '. a .'
-        '. b .'
-        '. c .'
-        '. d .'
-        'f f f';
-    height: 50vh;
-    justify-items: center;
-    text-align: left;
+  display: grid;
+  grid-template-rows: 1fr 1fr 3fr 1fr 2fr;
+  grid-template-columns: 1fr 7fr 1fr;
+  grid-template-areas:
+    ". a ."
+    ". b ."
+    ". c ."
+    ". d ."
+    "f f f";
+  height: 50vh;
+  justify-items: center;
+  text-align: left;
 }
 
 #form--name {
-    grid-area: a;
+  grid-area: a;
 }
 
 #form--email {
-    grid-area: b;
+  grid-area: b;
 }
 
 #form--message {
-    grid-area: c;
+  grid-area: c;
 }
 
 #form--submit {
-    grid-area: d;
+  grid-area: d;
 }
 
 #contact--info {
-    grid-area: f;
+  grid-area: f;
 }
 
 #contact-area h1 {
-    margin: 5px;
+  margin: 5px;
 }
 
 #contact-area .page-text {
-    margin-top: 1rem;
+  margin-top: 1rem;
 }
 
-input#name, input#email {
-    font-family: "Lato", "Gill Sans", sans-serif;
+input#name,
+input#email {
+  font-family: "Lato", "Gill Sans", sans-serif;
 }
 
-input#name, input#email, textarea {
-    background-color: rgb(255,255,255,.4);
-    border: none;
-    width: 19rem;
-    padding: 10px;
-    font-size: 1.1rem;
+input#name,
+input#email,
+textarea {
+  background-color: rgb(255, 255, 255, 0.4);
+  border: none;
+  width: 19rem;
+  padding: 10px;
+  font-size: 1.1rem;
 }
 
 #name {
-    grid-row: 1;
+  grid-row: 1;
 }
 
 #email {
-    grid-row: 2;
+  grid-row: 2;
 }
 
 textarea {
-    font-size: 1rem;
-    resize: none;
-    padding: 10px;
-    grid-row: 3;
-    min-height: 100px;
+  font-size: 1rem;
+  resize: none;
+  padding: 10px;
+  grid-row: 3;
+  min-height: 100px;
 }
 
 .page-text a {
-    font-size: 1.2rem;
-    margin-left: 8px;
+  font-size: 1.2rem;
+  margin-left: 8px;
 }
 
 #contact-area .page-text {
-    grid-row: 5;
-    font-size: 1rem;
+  grid-row: 5;
+  font-size: 1rem;
 }
 
 label {
-    text-align: right;
+  text-align: right;
 }
 
 button[type="submit"] {
-    margin-top: 20px;
-    padding: 10px 15px;
-    background-color: rgb(255,255,255,.4);
-    font-size: 1.1rem;
-    width: 120px;
-    justify-self: center;
-    grid-row: 4;
+  margin-top: 20px;
+  padding: 10px 15px;
+  background-color: rgb(255, 255, 255, 0.4);
+  font-size: 1.1rem;
+  width: 120px;
+  justify-self: center;
+  grid-row: 4;
 }
 
 button[type="submit"]:hover {
-    background-color: rgb(255,255,255,.6);
+  background-color: rgb(255, 255, 255, 0.6);
 }
 
 #thank-you-message {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
 }
 
 @media only screen and (max-width: 700px) {
-    #contact-area .square {
-        width: 100vw;
-    }
+  #contact-area .square {
+    width: 100vw;
+  }
 }

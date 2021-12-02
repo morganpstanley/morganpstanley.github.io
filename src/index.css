@@ -1,7 +1,7 @@
 :root {
   --title-font: Playfair, serif;
-  --secondary-font: 'Inter', sans-serif;
-  --clear: hsla(0,0%,100%,0.1);
+  --secondary-font: "Inter", sans-serif;
+  --clear: hsla(0, 0%, 100%, 0.1);
 }
 
 @font-face {
@@ -14,11 +14,13 @@
   font-family: var(--title-font);
 }
 
-a, button {
+a,
+button {
   cursor: pointer;
 }
 
-html, body {
+html,
+body {
   margin: 0;
   font-family: var(--secondary-font);
   -webkit-font-smoothing: antialiased;
@@ -28,6 +30,6 @@ html, body {
 }
 
 a {
-    color: black;
-    text-decoration: none;
+  color: black;
+  text-decoration: none;
 }

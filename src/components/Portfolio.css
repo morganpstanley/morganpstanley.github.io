@@ -1,160 +1,163 @@
-#portfolio-area, #portfolio-area button, #portfolio-area a {
-    color: white;
+#portfolio-area,
+#portfolio-area button,
+#portfolio-area a {
+  color: white;
 }
 
 #portfolio-body {
-    display: grid;
-    grid-template-columns: 1.8fr .3fr 7fr .3fr;
-    grid-template-rows: 1fr 10fr;
-    grid-template-areas: 
-        "project-title . description-title . "
-        "project       . description . ";
-    height: 70vh;
-    width: 100vw;
+  display: grid;
+  grid-template-columns: 1.8fr 0.3fr 7fr 0.3fr;
+  grid-template-rows: 1fr 10fr;
+  grid-template-areas:
+    "project-title . description-title . "
+    "project       . description . ";
+  height: 70vh;
+  width: 100vw;
 }
 
 #github-logo {
-    height: 1.4rem;
-    grid-area: description-title;
-    display: inline-block;
-    margin-left: 10px;
+  height: 1.4rem;
+  grid-area: description-title;
+  display: inline-block;
+  margin-left: 10px;
 }
 
 #project-title {
-    font-size: 1.3rem;
-    border-right-color: var(--clear);
-    border-right-style: solid;
-    margin: 0px;
-    padding-top: 1rem;
-    display: inline-block;
+  font-size: 1.3rem;
+  border-right-color: var(--clear);
+  border-right-style: solid;
+  margin: 0px;
+  padding-top: 1rem;
+  display: inline-block;
 }
 
 #project-overview {
-    grid-area: description-title;
-    font-size: 1.3rem;
-    margin: 0px;
-    padding: 1rem;
+  grid-area: description-title;
+  font-size: 1.3rem;
+  margin: 0px;
+  padding: 1rem;
 }
 
 #project-names {
-    border-right-color: var(--clear);
-    border-right-style: solid;
-    grid-area: project;
-    display: grid;
-    text-align: left;
-    grid-template-rows: repeat(15, 1fr);
+  border-right-color: var(--clear);
+  border-right-style: solid;
+  grid-area: project;
+  display: grid;
+  text-align: left;
+  grid-template-rows: repeat(15, 1fr);
 }
 
 .bullets p {
-    margin-top: 0px;
+  margin-top: 0px;
 }
 
 #portfolio-area .page-header {
-    border-bottom-color: var(--clear);
-    border-bottom-style: solid;
-    padding-bottom: 21px;
-    margin-bottom: 0px;
+  border-bottom-color: var(--clear);
+  border-bottom-style: solid;
+  padding-bottom: 21px;
+  margin-bottom: 0px;
 }
 
-.project-details{
-    width: 100%;
-    grid-area: description;
-    margin: 0px 10px;
-    overflow: hidden;
-    display: grid;
-    grid-template-columns: 1fr .1fr 1fr;
+.project-details {
+  width: 100%;
+  grid-area: description;
+  margin: 0px 10px;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: 1fr 0.1fr 1fr;
 }
 
 .carousel-root {
-    width: 90%;
-    grid-column: 3;
-    grid-row: 1;
-    margin-right: 0px;
+  width: 90%;
+  grid-column: 3;
+  grid-row: 1;
+  margin-right: 0px;
 }
 .portfolio-item img {
-    max-width: 100%;
-    max-height: 100%;
+  max-width: 100%;
+  max-height: 100%;
 }
 
-#project-stack,  #project-description {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+#project-stack,
+#project-description {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 #project-stack {
-    margin-top: 5px;
-    font-size: 1rem;
+  margin-top: 5px;
+  font-size: 1rem;
 }
 
 #project-description {
-    text-align: left;
+  text-align: left;
 }
 
 .project-name {
-    font-size: 1rem;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-align: left;
-    padding: 7px;
-    padding-left: 2rem;
+  font-size: 1rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: left;
+  padding: 7px;
+  padding-left: 2rem;
 }
 
 #project-names > button:hover {
-  background-color: rgba(0,0,0,0.2);
+  background-color: rgba(0, 0, 0, 0.2);
 }
 
 #portfolio-area {
-    background-color: rgb(0,0,0,.2);
-    top: 15vh;
-    position: absolute;
-    height: 100vh;
-    width: 100vw;
-    transition: .6s;
-    display: block;
+  background-color: rgb(0, 0, 0, 0.2);
+  top: 15vh;
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  transition: 0.6s;
+  display: block;
 }
 
 #portfolio-area.hidden {
-    transform: translateY(100vh);
-    transition: 1s;
-    visibility: hidden;
+  transform: translateY(100vh);
+  transition: 1s;
+  visibility: hidden;
 }
 
 .bullets {
-    text-align: left;
+  text-align: left;
 }
 
 ul.thumbs.animated {
-    padding-left: 0px;
+  padding-left: 0px;
 }
 
 @media only screen and (max-width: 600px) {
-    #portfolio-body {
-        padding: 0px 5px 5px 5px;
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 10fr;
-        height: 70vh;
-        width: 100vw;
-    }
+  #portfolio-body {
+    padding: 0px 5px 5px 5px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 10fr;
+    height: 70vh;
+    width: 100vw;
+  }
 
-    #project-title {
-        grid-row: 1;
-    }
+  #project-title {
+    grid-row: 1;
+  }
 
-    #project-names {
-        border-right-color: var(--clear);
-        width: 100%;
-        border-right-style: solid;
-        grid-column: 1;
-        grid-row: 2;
-        display: grid;
-        text-align: left;
-        grid-template-rows: repeat(15, 1fr);
-    }
+  #project-names {
+    border-right-color: var(--clear);
+    width: 100%;
+    border-right-style: solid;
+    grid-column: 1;
+    grid-row: 2;
+    display: grid;
+    text-align: left;
+    grid-template-rows: repeat(15, 1fr);
+  }
 
-    .portfolio-item {
-        display: inline;
-    }
+  .portfolio-item {
+    display: inline;
+  }
 
-    .carousel.thumb {
-        width: 60px;
-    }
+  .carousel.thumb {
+    width: 60px;
+  }
 }
