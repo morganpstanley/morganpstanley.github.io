@@ -1,6 +1,6 @@
-import stocker1 from '../assets/stocker-home.png'
-import stocker2 from '../assets/stocker-signup.png'
-import stocker3 from '../assets/stocker-signin.png'
+import stocker1 from '../assets/stocker-1.webp'
+import stocker2 from '../assets/stocker-2.webp'
+import stocker3 from '../assets/stocker-3.webp'
 
 const PROJECT_NAME = 'Stocker';
 

@@ -1,5 +1,5 @@
 .App {
-background-image: url('../assets/cropped2.webp');
+background-image: url('../assets/background-med.webp');
   height: 100vh;
   border: 6px solid white;
   border-bottom: none;
@@ -10,7 +10,7 @@ background-image: url('../assets/cropped2.webp');
 @media screen 
 and (min-width: 1300px) {
     .App {
-        background-image: url('../assets/cropped.webp');
+        background-image: url('../assets/background.webp');
     }
 }
 
