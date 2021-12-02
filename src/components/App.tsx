@@ -14,8 +14,8 @@ const App = () => {
     const [contact, showContact] = useState(false)
     const [mobile, showMobile] = useState(false)
 
-    const handleToggle = (e) => {
-        let target = e.target.id
+    const handleToggle = (element: React.MouseEvent<HTMLButtonElement>) => {
+        let target = element.currentTarget.id
         showAbout(false)
         showPortfolio(false)
         showContact(false)

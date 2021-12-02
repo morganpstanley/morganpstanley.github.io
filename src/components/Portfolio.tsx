@@ -13,8 +13,8 @@ const Portfolio = () => {
     const [stocker, setStocker] = useState(false);
     const [proBuild, setProBuild] = useState(false);
     
-    const handleToggle = (e) => {
-        let target = e.target.id;
+    const handleToggle = (element: React.MouseEvent<HTMLButtonElement>) => {
+        let target = element.currentTarget.id;
         
         setChessBattery(false);
         setProBuild(false);

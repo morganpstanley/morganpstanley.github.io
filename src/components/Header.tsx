@@ -4,7 +4,7 @@ import "./Header.css"
 const RESUME = "https://docs.google.com/document/d/e/2PACX-1vRz0REkDGRXf_f5P_VgXC_jD8hGxeFZWm10WVxKCrY_C0qh7iZbQhim0cIslSFvV3mfAzqrGdsq2ZET/pub"
 
 type headerProps = {
-  handleToggle(): void;
+  handleToggle(event: React.MouseEvent<HTMLButtonElement>): any;
   toggleMenu(): void;
   mobile: boolean;
   about: boolean;
