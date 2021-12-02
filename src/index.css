@@ -1,8 +1,7 @@
 :root {
   --title-font: Playfair, serif;
   --secondary-font: 'Inter', sans-serif;
-  --transparent-1: rgb(255,255,255,.1);
-  --transparent-2: rgb(255,255,255,.2);
+  --clear: hsla(0,0%,100%,0.1);
 }
 
 @font-face {

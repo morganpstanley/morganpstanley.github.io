@@ -19,7 +19,7 @@
 #project-title {
     color: white;
     font-size: 1.3rem;
-    border-right-color: var(--transparent-1);
+    border-right-color: var(--clear);
     border-right-style: solid;
     margin: 0px;
     padding-top: 1rem;
@@ -41,7 +41,7 @@
 } */
 
 #project-names {
-    border-right-color: var(--transparent-1);
+    border-right-color: var(--clear);
     border-right-style: solid;
     grid-area: project;
     display: grid;
@@ -58,7 +58,7 @@
 }
 
 #portfolio-area .page-header {
-    border-bottom-color: var(--transparent-1);
+    border-bottom-color: var(--clear);
     border-bottom-style: solid;
     padding-bottom: 21px;
     margin-bottom: 0px;
@@ -152,7 +152,7 @@ a.project-link {
     }
 
     #project-names {
-        border-right-color: var(--transparent-1);
+        border-right-color: var(--clear);
         width: 100%;
         border-right-style: solid;
         grid-column: 1;
