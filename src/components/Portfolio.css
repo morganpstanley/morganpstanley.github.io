@@ -1,3 +1,7 @@
+#portfolio-area, #portfolio-area button, #portfolio-area a {
+    color: white;
+}
+
 #portfolio-body {
     display: grid;
     grid-template-columns: 1.8fr .3fr 7fr .3fr;
@@ -17,7 +21,6 @@
 }
 
 #project-title {
-    color: white;
     font-size: 1.3rem;
     border-right-color: var(--clear);
     border-right-style: solid;
@@ -26,19 +29,12 @@
     display: inline-block;
 }
 
-#project-description {
+#project-overview {
     grid-area: description-title;
-    color: white;
     font-size: 1.3rem;
     margin: 0px;
     padding: 1rem;
-    display: inline-block;
 }
-
-/* #description-title {
-    grid-area: description-title;
-    font-size: 1.3rem;
-} */
 
 #project-names {
     border-right-color: var(--clear);
@@ -47,10 +43,6 @@
     display: grid;
     text-align: left;
     grid-template-rows: repeat(15, 1fr);
-}
-
-#portfolio-area .page-header, .description, .project-name, .portfolio-item p {
-    color: white;
 }
 
 .bullets p {
@@ -64,14 +56,12 @@
     margin-bottom: 0px;
 }
 
-.portfolio-item{
+.project-details{
     width: 100%;
     grid-area: description;
     margin: 0px 10px;
     overflow: hidden;
-    text-align: center;
     display: grid;
-    grid-template-rows: 1fr 2fr 1fr 2fr;
     grid-template-columns: 1fr .1fr 1fr;
 }
 
@@ -86,15 +76,17 @@
     max-height: 100%;
 }
 
-.description {
-    text-align: center;
-    margin-top: 0px;
-    padding-right: 20px;
-    grid-column: 1;
-    grid-row: 1;
+#project-stack,  #project-description {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#project-stack {
     margin-top: 5px;
     font-size: 1rem;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#project-description {
+    text-align: left;
 }
 
 .project-name {
@@ -131,10 +123,6 @@
 
 ul.thumbs.animated {
     padding-left: 0px;
-}
-
-a.project-link {
-    color: white;
 }
 
 @media only screen and (max-width: 600px) {

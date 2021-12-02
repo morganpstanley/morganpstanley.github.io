@@ -4,15 +4,25 @@ import githubLogo from '../assets/github-icon.webp'
 
 import "./Carousel.css"
 
-const Project = ({project}) => {
+
+type projectProps = {
+    PROJECT_NAME: string;
+    PROJECT_LINK?: string;
+    PROJECT_LANGUAGES: string;
+    PROJECT_BULLETS: string[];
+    PROJECT_IMAGES: string[];
+    GITHUB_LINK: string
+}
+
+const Project = ({ project }: any): JSX.Element => {
 
     const {PROJECT_NAME,
-        PROJECT_LINK, 
         PROJECT_LANGUAGES, 
         PROJECT_BULLETS, 
         PROJECT_IMAGES, 
-        GITHUB_LINK
-    } = project
+        GITHUB_LINK,
+        PROJECT_LINK,
+     }: projectProps = project
 
     const getConfigurableProps = () => ({
         showArrows: true,
@@ -30,9 +40,9 @@ const Project = ({project}) => {
         transitionTime: 200,
     });
 
-    const showBullets = PROJECT_BULLETS.map((bullet, i) => <p key={i}>{bullet}</p>)
+    const showBullets = PROJECT_BULLETS.map((bullet: string, i: number) => <p key={i}>{bullet}</p>)
 
-    const showImages = PROJECT_IMAGES.map((image, i) => 
+    const showImages = PROJECT_IMAGES.map((image: string, i: number) => 
         <img 
             loading="lazy"
             key={i} 
@@ -40,7 +50,7 @@ const Project = ({project}) => {
             alt="Portfolio Project" 
         />)
 
-    const showProjectName = (projectName, link = null) => {
+    const showProjectName = (projectName: string, link: string | undefined) => {
         if (link) return (
             <a href={link} className="project-link font-playfair">{projectName}⤤</a>
         )
@@ -49,21 +59,19 @@ const Project = ({project}) => {
 
     return(
         <React.Fragment>
-            <div key={PROJECT_NAME} id="project-description">
+            <div key={PROJECT_NAME} id="project-overview">
                 {showProjectName(PROJECT_NAME, PROJECT_LINK)}
                 <a href={GITHUB_LINK}>
                     <img id="github-logo" src={githubLogo} height="22" width="22" alt="Github Link"/>
                 </a>
-                <p className="description">{PROJECT_LANGUAGES}</p>
+                <p id="project-stack">{PROJECT_LANGUAGES}</p>
             </div>
-            <div className="portfolio-item">
+            <div className="project-details">
                 <Carousel {...getConfigurableProps()}>
                     {showImages}
                 </Carousel>
-                <div className="description">
-                    <div className="bullets">
-                        {showBullets}
-                    </div>
+                <div id="project-description">
+                    {showBullets}
                 </div>
             </div>
         </React.Fragment>
