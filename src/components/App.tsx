@@ -11,7 +11,7 @@ const App = () => {
   const [about, showAbout] = useState(true);
   const [portfolio, showPortfolio] = useState(false);
   const [contact, showContact] = useState(false);
-  const [mobile, showMobile] = useState(false);
+  const [menu, showMenu] = useState(false);
 
   const handleToggle = (element: React.MouseEvent<HTMLButtonElement>) => {
     let target = element.currentTarget.id;
@@ -21,11 +21,11 @@ const App = () => {
     if (target === "about") showAbout(true);
     if (target === "portfolio") showPortfolio(true);
     if (target === "contact") showContact(true);
-    if (mobile) toggleMenu();
+    if (menu) toggleMenu();
   };
 
   const toggleMenu = () => {
-    showMobile(!mobile);
+    showMenu(!menu);
   };
 
   return (
@@ -33,19 +33,19 @@ const App = () => {
       <Header
         toggleMenu={toggleMenu}
         handleToggle={handleToggle}
-        mobile={mobile}
+        menu={menu}
         about={about}
         portfolio={portfolio}
         contact={contact}
       />
       <div
-        className={`page ${about && !mobile ? null : "hidden"}`}
+        className={`page ${about && !menu ? null : "hidden"}`}
         id="about-area"
       >
         <About />
       </div>
       <div
-        className={`page ${contact && !mobile ? null : "hidden"}`}
+        className={`page ${contact && !menu ? null : "hidden"}`}
         id="contact-area"
       >
         <Contact />

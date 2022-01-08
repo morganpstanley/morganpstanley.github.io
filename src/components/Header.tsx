@@ -1,4 +1,5 @@
 import signature from "../assets/signature-black.webp";
+import HamburgerMenu from "react-hamburger-menu"
 import "./Header.css";
 
 const RESUME =
@@ -7,7 +8,7 @@ const RESUME =
 type headerProps = {
   handleToggle(event: React.MouseEvent<HTMLButtonElement>): any;
   toggleMenu(): void;
-  mobile: boolean;
+  menu: boolean;
   about: boolean;
   portfolio: boolean;
   contact: boolean;
@@ -16,11 +17,24 @@ type headerProps = {
 const Header = ({
   handleToggle,
   toggleMenu,
-  mobile,
+  menu,
   about,
   portfolio,
   contact,
 }: headerProps) => {
+
+  const HamburgerMenuOptions = {
+    isOpen: menu,
+    menuClicked() {
+      toggleMenu();
+    },
+    width: 50,
+    height: 30,
+    strokeWidth: 5,
+    color: menu ? "white" : "black",
+    className: "hamburger",
+}
+
   return (
     <div id="header">
       <img
@@ -28,16 +42,13 @@ const Header = ({
         id="signature"
         width="100"
         height="100"
-        className={mobile ? "inverted" : ""}
+        className={menu ? "inverted" : ""}
         alt="Morgan Stanley"
       />
-      <button
-        id="hamburger-icon"
-        className={mobile ? "showClose" : ""}
-        aria-label="mobile menu"
-        onClick={toggleMenu}
-      ></button>
-      <nav className={`navbar ${mobile ? "showNav" : ""}`}>
+      <HamburgerMenu
+        {...HamburgerMenuOptions}
+      />
+      <nav className={`navbar ${menu ? "showNav" : ""}`}>
         <button
           id="about"
           className={`link font-playfair ${about ? "active" : ""}`}
