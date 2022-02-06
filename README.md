@@ -25,15 +25,15 @@ When I use an photograph as the focal point of anything I design, my personal pr
 
 #### *Layout*
 
-I decided that the nav would flow left-to-right rather than top-to-bottom to match the flow of the image. For pages with less text, like my contact and about, I choose to center the container element both vertically and horizontally to better the empty space. Scrolling on websites with a static background image is confusing and ~~always~~ often looks bad.  
+I decided that the nav would flow left-to-right rather than top-to-bottom to match the flow of the image. For pages with less text, like my contact and about, I choose to center the container element both vertically and horizontally to better the empty space. Scrolling on websites with a static background image is confusing and ~~always~~ often looks bad. So I decided to go with grid-based portfolio with a nav area on the left and the project description on the right. Finally, because the result was looking something like an old polaroid, I added a white border around the whole website just to seal the deal. 
 
 #### *Typography*
 
-
-
-
+I'm a huge fan of the Playfair font and try to coerce it into as many things as possible. I think it fits pretty well here with the 90s aesthetic if italicized. For the body I decided on Segoe UI, though I wanted something a little bolder for the subheading and changed that to Inter.  
 
 <h2 align="center">Implementation</h2>
+
+[under construction]
 
 <br />
 <br />
