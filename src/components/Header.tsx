@@ -59,7 +59,7 @@ const Header = ({
         >
           About
         </button>
-        {/* <button
+        <button
           id="portfolio"
           className={`link font-playfair ${portfolio ? "active" : ""}`}
           onClick={handleToggle}
