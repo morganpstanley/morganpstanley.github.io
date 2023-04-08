@@ -28,6 +28,11 @@ const App = () => {
     showMenu(!menu);
   };
 
+  const CurrentRoute = () => {
+    if (menu) return
+    return (about) ? <About /> : (contact) ? <Contact /> : (portfolio) ? <Portfolio /> : null
+  }
+
   return (
     <div className="App">
       <Header
@@ -38,23 +43,8 @@ const App = () => {
         portfolio={portfolio}
         contact={contact}
       />
-      <div
-        className={`page ${about && !menu ? null : "hidden"}`}
-        id="about-area"
-      >
-        <About />
-      </div>
-      <div
-        className={`page ${contact && !menu ? null : "hidden"}`}
-        id="contact-area"
-      >
-        <Contact />
-      </div>
-      <div
-        className={`page ${portfolio ? null : "hidden"}`}
-        id="portfolio-area"
-      >
-        <Portfolio />
+      <div className="page">
+        {CurrentRoute()}
       </div>
     </div>
   );

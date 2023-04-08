@@ -3,7 +3,10 @@ import HamburgerMenu from "react-hamburger-menu"
 import "./Header.css";
 
 const RESUME =
-  "https://docs.google.com/document/d/e/2PACX-1vRz0REkDGRXf_f5P_VgXC_jD8hGxeFZWm10WVxKCrY_C0qh7iZbQhim0cIslSFvV3mfAzqrGdsq2ZET/pub";
+  "https://standardresume.co/r/morgan-p-stanley";
+
+const GITHUB =
+  "https://github.com/morganpstanley"
 
 type headerProps = {
   handleToggle(event: React.MouseEvent<HTMLButtonElement>): any;
@@ -56,14 +59,14 @@ const Header = ({
         >
           About
         </button>
-        <button
+        {/* <button
           id="portfolio"
           className={`link font-playfair ${portfolio ? "active" : ""}`}
           onClick={handleToggle}
         >
           Portfolio
-        </button>
-        <button
+        </button> */}
+        {/* <button
           id="contact"
           className={`link font-playfair ${contact ? "active" : ""}`}
           onClick={handleToggle}
@@ -75,6 +78,14 @@ const Header = ({
           href="https://medium.com/@morganpstanley"
         >
           Blog⤤
+        </a> */}
+         <a
+          className="link font-playfair"
+          href={GITHUB}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Github⤤
         </a>
         <a
           className="link font-playfair"

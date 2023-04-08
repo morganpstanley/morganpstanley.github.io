@@ -35,7 +35,7 @@ const Portfolio = () => {
   };
 
   return (
-    <>
+    <div id="portfolio-area">
       <h1 className="page-header font-playfair">Portfolio</h1>
       <div id="portfolio-body">
         <p id="project-title" className="font-playfair">
@@ -73,7 +73,7 @@ const Portfolio = () => {
         </div>
         <Project project={currentProject()} />
       </div>
-    </>
+    </div>
   );
 };
 
