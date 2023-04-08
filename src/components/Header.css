@@ -37,3 +37,9 @@ a:hover,
 .inverted {
   filter: invert(1) !important;
 }
+
+@media (min-width: 651px) {
+  .hamburger {
+    display: none !important;
+  }
+}
